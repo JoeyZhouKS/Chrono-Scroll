@@ -1,0 +1,5469 @@
+[
+  {
+    "id": "china-xia",
+    "title": "夏朝",
+    "startYear": -2070,
+    "endYear": -1600,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "传统史书中记载的中国早期王朝，常被视为中国王朝史的开端。"
+  },
+  {
+    "id": "china-shang",
+    "title": "商朝",
+    "startYear": -1600,
+    "endYear": -1046,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "青铜文明高度发展的王朝，甲骨文材料使其历史轮廓更为清晰。"
+  },
+  {
+    "id": "china-western-zhou",
+    "title": "西周",
+    "startYear": -1046,
+    "endYear": -771,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "周人建立的早期王朝阶段，分封制和礼乐制度影响深远。"
+  },
+  {
+    "id": "china-eastern-zhou",
+    "title": "东周",
+    "startYear": -770,
+    "endYear": -256,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "周室东迁后的历史阶段，涵盖春秋与战国的大部分时间。"
+  },
+  {
+    "id": "china-spring-autumn",
+    "title": "春秋时期",
+    "startYear": -770,
+    "endYear": -476,
+    "type": "era",
+    "category": "era",
+    "summary": "诸侯争霸、礼崩乐坏与思想萌发并行的时代。"
+  },
+  {
+    "id": "china-warring-states",
+    "title": "战国时期",
+    "startYear": -475,
+    "endYear": -221,
+    "type": "era",
+    "category": "era",
+    "summary": "七雄竞争和制度变革加速，最终走向秦的统一。"
+  },
+  {
+    "id": "china-qin",
+    "title": "秦朝",
+    "startYear": -221,
+    "endYear": -206,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "中国历史上第一个大一统中央集权王朝。"
+  },
+  {
+    "id": "china-western-han",
+    "title": "西汉",
+    "startYear": -202,
+    "endYear": 9,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "汉朝前期阶段，制度建设、边疆经营与丝路交流逐渐成形。"
+  },
+  {
+    "id": "china-xin",
+    "title": "新朝",
+    "startYear": 9,
+    "endYear": 23,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "王莽建立的短暂政权，进行过多项复古改革。"
+  },
+  {
+    "id": "china-eastern-han",
+    "title": "东汉",
+    "startYear": 25,
+    "endYear": 220,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "刘秀重建汉室后的阶段，后期豪强与外戚宦官政治加剧。"
+  },
+  {
+    "id": "china-three-kingdoms",
+    "title": "三国时期",
+    "startYear": 220,
+    "endYear": 280,
+    "type": "era",
+    "category": "era",
+    "summary": "魏、蜀、吴鼎立的分裂时代。"
+  },
+  {
+    "id": "china-western-jin",
+    "title": "西晋",
+    "startYear": 266,
+    "endYear": 316,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "短暂统一三国后的王朝，后期内乱与迁徙冲击加深。"
+  },
+  {
+    "id": "china-eastern-jin",
+    "title": "东晋",
+    "startYear": 317,
+    "endYear": 420,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "司马氏南渡后建立的政权，与北方政权长期对峙。"
+  },
+  {
+    "id": "china-northern-southern",
+    "title": "南北朝",
+    "startYear": 420,
+    "endYear": 589,
+    "type": "era",
+    "category": "era",
+    "summary": "南北政权并立、民族融合和制度演进的重要阶段。"
+  },
+  {
+    "id": "china-sui",
+    "title": "隋朝",
+    "startYear": 581,
+    "endYear": 618,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "重新统一南北，开创科举与大运河等制度工程。"
+  },
+  {
+    "id": "china-tang",
+    "title": "唐朝",
+    "startYear": 618,
+    "endYear": 907,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "疆域辽阔、文化开放、制度成熟的中国古代高峰之一。"
+  },
+  {
+    "id": "china-five-dynasties",
+    "title": "五代十国",
+    "startYear": 907,
+    "endYear": 960,
+    "type": "era",
+    "category": "era",
+    "summary": "唐亡后中原王朝更替频繁，南方诸国并存。"
+  },
+  {
+    "id": "china-northern-song",
+    "title": "北宋",
+    "startYear": 960,
+    "endYear": 1127,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "文官政治、商业经济和城市文化高度发展。"
+  },
+  {
+    "id": "china-southern-song",
+    "title": "南宋",
+    "startYear": 1127,
+    "endYear": 1279,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "宋室南渡后的阶段，江南经济与海上贸易继续发展。"
+  },
+  {
+    "id": "china-yuan",
+    "title": "元朝",
+    "startYear": 1271,
+    "endYear": 1368,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "蒙古统治者建立的大一统王朝，欧亚交流显著增强。"
+  },
+  {
+    "id": "china-ming",
+    "title": "明朝",
+    "startYear": 1368,
+    "endYear": 1644,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "朱元璋建立的王朝，中央集权强化，海防与边疆问题长期存在。"
+  },
+  {
+    "id": "china-qing",
+    "title": "清朝",
+    "startYear": 1644,
+    "endYear": 1912,
+    "type": "era",
+    "category": "dynasty",
+    "summary": "满洲统治者建立的大一统王朝，晚期遭遇剧烈内外冲击。"
+  },
+  {
+    "id": "china-republic-mainland",
+    "title": "中华民国大陆时期",
+    "startYear": 1912,
+    "endYear": 1949,
+    "type": "era",
+    "category": "era",
+    "summary": "从清末帝制终结到中华人民共和国成立前的大陆历史阶段。"
+  },
+  {
+    "id": "china-prc",
+    "title": "中华人民共和国",
+    "startYear": 1949,
+    "endYear": 2026,
+    "type": "era",
+    "category": "era",
+    "summary": "1949年成立并延续至今的中国现代国家阶段。"
+  },
+  {
+    "id": "china-qin-unification",
+    "title": "秦统一六国",
+    "startYear": -221,
+    "type": "event",
+    "category": "politics",
+    "summary": "秦灭六国，建立统一的中央集权国家。"
+  },
+  {
+    "id": "china-qin-fall",
+    "title": "秦朝灭亡",
+    "startYear": -206,
+    "type": "event",
+    "category": "politics",
+    "summary": "秦政权在秦末战争中崩溃。"
+  },
+  {
+    "id": "china-western-han-founded",
+    "title": "西汉建立",
+    "startYear": -202,
+    "type": "event",
+    "category": "politics",
+    "summary": "刘邦建立汉朝，定都长安。"
+  },
+  {
+    "id": "china-zhang-qian",
+    "title": "张骞出使西域",
+    "startYear": -138,
+    "endYear": -126,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "张骞通西域，推动汉朝与中亚地区的联系。"
+  },
+  {
+    "id": "china-wang-mang-xin",
+    "title": "王莽建立新朝",
+    "startYear": 9,
+    "type": "event",
+    "category": "politics",
+    "summary": "王莽代汉建新，试图推行复古改革。"
+  },
+  {
+    "id": "china-eastern-han-founded",
+    "title": "东汉建立",
+    "startYear": 25,
+    "type": "event",
+    "category": "politics",
+    "summary": "刘秀称帝，重建汉朝。"
+  },
+  {
+    "id": "china-yellow-turban",
+    "title": "黄巾起义",
+    "startYear": 184,
+    "type": "event",
+    "category": "war",
+    "summary": "东汉末年大规模民变，动摇汉朝统治基础。"
+  },
+  {
+    "id": "china-red-cliffs",
+    "title": "赤壁之战",
+    "startYear": 208,
+    "type": "event",
+    "category": "war",
+    "summary": "孙刘联军击败曹操，三国鼎立格局逐渐形成。"
+  },
+  {
+    "id": "china-cao-pi",
+    "title": "曹丕称帝",
+    "startYear": 220,
+    "type": "event",
+    "category": "politics",
+    "summary": "曹丕代汉称帝，建立曹魏。"
+  },
+  {
+    "id": "china-sui-founded",
+    "title": "隋朝建立",
+    "startYear": 581,
+    "type": "event",
+    "category": "politics",
+    "summary": "杨坚建立隋朝。"
+  },
+  {
+    "id": "china-sui-unification",
+    "title": "隋灭陈统一全国",
+    "startYear": 589,
+    "type": "event",
+    "category": "politics",
+    "summary": "隋灭南陈，结束南北长期分裂。"
+  },
+  {
+    "id": "china-tang-founded",
+    "title": "唐朝建立",
+    "startYear": 618,
+    "type": "event",
+    "category": "politics",
+    "summary": "李渊建立唐朝。"
+  },
+  {
+    "id": "china-xuanwu-gate",
+    "title": "玄武门之变",
+    "startYear": 626,
+    "type": "event",
+    "category": "politics",
+    "summary": "李世民发动宫廷政变，随后即位为唐太宗。"
+  },
+  {
+    "id": "china-zhenguan",
+    "title": "贞观之治",
+    "startYear": 627,
+    "endYear": 649,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐太宗时期政治清明、社会稳定的盛世阶段。"
+  },
+  {
+    "id": "china-wu-zhou",
+    "title": "武周时期",
+    "startYear": 690,
+    "endYear": 705,
+    "type": "event",
+    "category": "politics",
+    "summary": "武则天改唐为周并称帝的时期。"
+  },
+  {
+    "id": "china-kaiyuan",
+    "title": "开元盛世",
+    "startYear": 713,
+    "endYear": 741,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐玄宗前期国力强盛、经济文化繁荣的阶段。"
+  },
+  {
+    "id": "china-an-lushan",
+    "title": "安史之乱",
+    "startYear": 755,
+    "endYear": 763,
+    "type": "event",
+    "category": "war",
+    "summary": "安禄山、史思明发动的叛乱，成为唐朝由盛转衰的重要转折。"
+  },
+  {
+    "id": "china-huang-chao",
+    "title": "黄巢起义",
+    "startYear": 875,
+    "endYear": 884,
+    "type": "event",
+    "category": "war",
+    "summary": "唐末大规模农民战争，严重冲击唐朝统治。"
+  },
+  {
+    "id": "china-northern-song-founded",
+    "title": "北宋建立",
+    "startYear": 960,
+    "type": "event",
+    "category": "politics",
+    "summary": "赵匡胤建立宋朝，结束五代割据局面。"
+  },
+  {
+    "id": "china-wang-anshi",
+    "title": "王安石变法",
+    "startYear": 1069,
+    "endYear": 1085,
+    "type": "event",
+    "category": "politics",
+    "summary": "北宋试图通过新法改革财政、军事和基层治理。"
+  },
+  {
+    "id": "china-jingkang",
+    "title": "靖康之变",
+    "startYear": 1127,
+    "type": "event",
+    "category": "war",
+    "summary": "金军攻破汴京，北宋灭亡。"
+  },
+  {
+    "id": "china-southern-song-founded",
+    "title": "南宋建立",
+    "startYear": 1127,
+    "type": "event",
+    "category": "politics",
+    "summary": "赵构在临安重建宋政权。"
+  },
+  {
+    "id": "china-yuan-founded",
+    "title": "元朝建立",
+    "startYear": 1271,
+    "type": "event",
+    "category": "politics",
+    "summary": "忽必烈定国号为大元。"
+  },
+  {
+    "id": "china-yuan-conquers-song",
+    "title": "元灭南宋",
+    "startYear": 1279,
+    "type": "event",
+    "category": "war",
+    "summary": "南宋最终灭亡，元完成统一。"
+  },
+  {
+    "id": "china-ming-founded",
+    "title": "明朝建立",
+    "startYear": 1368,
+    "type": "event",
+    "category": "politics",
+    "summary": "朱元璋称帝，建立明朝。"
+  },
+  {
+    "id": "china-jingnan",
+    "title": "靖难之役",
+    "startYear": 1399,
+    "endYear": 1402,
+    "type": "event",
+    "category": "war",
+    "summary": "燕王朱棣起兵夺位，成为明成祖。"
+  },
+  {
+    "id": "china-zheng-he",
+    "title": "郑和下西洋",
+    "startYear": 1405,
+    "endYear": 1433,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "明代大规模远洋航行，推动中国与印度洋世界交流。"
+  },
+  {
+    "id": "china-tumu",
+    "title": "土木堡之变",
+    "startYear": 1449,
+    "type": "event",
+    "category": "war",
+    "summary": "明英宗北征被俘，明朝边防格局受到震动。"
+  },
+  {
+    "id": "china-ming-qing-transition",
+    "title": "明清易代",
+    "startYear": 1644,
+    "type": "event",
+    "category": "politics",
+    "summary": "明亡清入关，中国进入清朝统治阶段。"
+  },
+  {
+    "id": "china-kang-qian",
+    "title": "康乾盛世",
+    "startYear": 1681,
+    "endYear": 1796,
+    "type": "event",
+    "category": "politics",
+    "summary": "清代康熙、雍正、乾隆时期国力强盛、疆域扩展。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-opium-war",
+    "title": "鸦片战争",
+    "startYear": 1840,
+    "endYear": 1842,
+    "type": "event",
+    "category": "war",
+    "summary": "清朝与英国爆发战争，中国近代史的重要开端。"
+  },
+  {
+    "id": "china-taiping",
+    "title": "太平天国运动",
+    "startYear": 1851,
+    "endYear": 1864,
+    "type": "event",
+    "category": "war",
+    "summary": "清末大规模内战与社会运动。"
+  },
+  {
+    "id": "china-self-strengthening",
+    "title": "洋务运动",
+    "startYear": 1861,
+    "endYear": 1895,
+    "type": "event",
+    "category": "technology",
+    "summary": "清廷引入西方军事和工业技术以图自强。"
+  },
+  {
+    "id": "china-hundred-days",
+    "title": "戊戌变法",
+    "startYear": 1898,
+    "type": "event",
+    "category": "politics",
+    "summary": "清末维新派推动的政治改革，历时短暂。"
+  },
+  {
+    "id": "china-boxer",
+    "title": "义和团运动",
+    "startYear": 1899,
+    "endYear": 1901,
+    "type": "event",
+    "category": "war",
+    "summary": "清末民间反教、排外运动，并引发列强军事干预。"
+  },
+  {
+    "id": "china-xinhai",
+    "title": "辛亥革命",
+    "startYear": 1911,
+    "type": "event",
+    "category": "revolution",
+    "summary": "推翻清朝帝制，促成中华民国成立。"
+  },
+  {
+    "id": "china-republic-founded",
+    "title": "中华民国成立",
+    "startYear": 1912,
+    "type": "event",
+    "category": "politics",
+    "summary": "南京临时政府成立，亚洲第一个共和政体国家诞生。"
+  },
+  {
+    "id": "china-may-fourth",
+    "title": "五四运动",
+    "startYear": 1919,
+    "type": "event",
+    "category": "culture",
+    "summary": "反帝爱国运动与新文化思潮交汇，影响中国现代思想政治。"
+  },
+  {
+    "id": "china-northern-expedition",
+    "title": "北伐战争",
+    "startYear": 1926,
+    "endYear": 1928,
+    "type": "event",
+    "category": "war",
+    "summary": "国民革命军北伐，推动中国政治版图重组。"
+  },
+  {
+    "id": "china-war-of-resistance",
+    "title": "抗日战争",
+    "startYear": 1937,
+    "endYear": 1945,
+    "type": "event",
+    "category": "war",
+    "summary": "中国全民族抗战，是第二次世界大战东方主战场的重要部分。"
+  },
+  {
+    "id": "china-prc-founded",
+    "title": "中华人民共和国成立",
+    "startYear": 1949,
+    "type": "event",
+    "category": "politics",
+    "summary": "中华人民共和国中央人民政府成立。"
+  },
+  {
+    "id": "china-reform-opening",
+    "title": "改革开放",
+    "startYear": 1978,
+    "type": "event",
+    "category": "economy",
+    "summary": "中国开始以经济建设为中心并推进改革开放。"
+  },
+  {
+    "id": "china-hong-kong-return",
+    "title": "香港回归",
+    "startYear": 1997,
+    "type": "event",
+    "category": "politics",
+    "summary": "中国对香港恢复行使主权。"
+  },
+  {
+    "id": "china-macau-return",
+    "title": "澳门回归",
+    "startYear": 1999,
+    "type": "event",
+    "category": "politics",
+    "summary": "中国对澳门恢复行使主权。"
+  },
+  {
+    "id": "china-beijing-olympics",
+    "title": "北京奥运会",
+    "startYear": 2008,
+    "type": "event",
+    "category": "culture",
+    "summary": "北京举办第29届夏季奥林匹克运动会。"
+  },
+  {
+    "id": "china-liangzhu-late",
+    "title": "良渚文化晚期",
+    "startYear": -3000,
+    "endYear": -2300,
+    "type": "event",
+    "category": "culture",
+    "summary": "长江下游史前复杂社会的重要阶段，玉器、城址和水利遗存展现出高度组织能力。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-erlitou-culture",
+    "title": "二里头文化",
+    "startYear": -1750,
+    "endYear": -1530,
+    "type": "event",
+    "category": "culture",
+    "summary": "中原地区早期国家形态的重要考古文化，与夏商之际的历史讨论密切相关。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-pangeng-yin",
+    "title": "盘庚迁殷",
+    "startYear": -1300,
+    "type": "event",
+    "category": "politics",
+    "summary": "商王盘庚迁都于殷，商朝后期政治中心趋于稳定。"
+  },
+  {
+    "id": "china-muye",
+    "title": "牧野之战",
+    "startYear": -1046,
+    "type": "event",
+    "category": "war",
+    "summary": "周武王伐纣的关键战役，商亡周兴。"
+  },
+  {
+    "id": "china-gonghe-regency",
+    "title": "共和行政",
+    "startYear": -841,
+    "endYear": -828,
+    "type": "event",
+    "category": "politics",
+    "summary": "西周晚期王权动荡后的特殊政治阶段，也是中国传世纪年较明确的开端之一。"
+  },
+  {
+    "id": "china-pingwang-east",
+    "title": "平王东迁",
+    "startYear": -770,
+    "type": "event",
+    "category": "politics",
+    "summary": "周平王迁都洛邑，西周结束，东周开始。"
+  },
+  {
+    "id": "china-shang-yang-reform",
+    "title": "商鞅变法",
+    "startYear": -356,
+    "endYear": -350,
+    "type": "event",
+    "category": "politics",
+    "summary": "秦国推行法制、军功爵和县制等改革，为秦统一奠定制度基础。"
+  },
+  {
+    "id": "china-changping",
+    "title": "长平之战",
+    "startYear": -260,
+    "type": "event",
+    "category": "war",
+    "summary": "秦赵之间的大规模决战，赵国元气大伤，战国格局进一步向秦倾斜。"
+  },
+  {
+    "id": "china-burning-books",
+    "title": "焚书坑儒",
+    "startYear": -213,
+    "endYear": -212,
+    "type": "event",
+    "category": "culture",
+    "summary": "秦朝强化思想控制的标志性事件，后世争议深远。"
+  },
+  {
+    "id": "china-dazexiang-uprising",
+    "title": "陈胜吴广起义",
+    "startYear": -209,
+    "type": "event",
+    "category": "revolution",
+    "summary": "秦末农民起义爆发，揭开推翻秦朝统治的序幕。"
+  },
+  {
+    "id": "china-chu-han",
+    "title": "楚汉战争",
+    "startYear": -206,
+    "endYear": -202,
+    "type": "event",
+    "category": "war",
+    "summary": "项羽与刘邦争夺天下的战争，最终刘邦胜出并建立汉朝。"
+  },
+  {
+    "id": "china-wenjing",
+    "title": "文景之治",
+    "startYear": -180,
+    "endYear": -141,
+    "type": "event",
+    "category": "politics",
+    "summary": "西汉初期休养生息、轻徭薄赋的治理阶段，社会经济恢复明显。"
+  },
+  {
+    "id": "china-confucian-state",
+    "title": "罢黜百家，独尊儒术",
+    "startYear": -134,
+    "type": "event",
+    "category": "culture",
+    "summary": "汉武帝时期儒学逐渐成为国家意识形态的重要基础。"
+  },
+  {
+    "id": "china-salt-iron-debate",
+    "title": "盐铁会议",
+    "startYear": -81,
+    "type": "event",
+    "category": "economy",
+    "summary": "围绕盐铁官营、财政政策和治国理念展开的重要政治经济讨论。"
+  },
+  {
+    "id": "china-guangwu-restoration",
+    "title": "光武中兴",
+    "startYear": 25,
+    "endYear": 57,
+    "type": "event",
+    "category": "politics",
+    "summary": "东汉初年刘秀重建秩序、恢复经济和稳定政权的阶段。"
+  },
+  {
+    "id": "china-ban-chao-western-regions",
+    "title": "班超经营西域",
+    "startYear": 73,
+    "endYear": 102,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "东汉重新加强与西域诸地的联系，维护丝绸之路交通。"
+  },
+  {
+    "id": "china-cai-lun-paper",
+    "title": "蔡伦改进造纸术",
+    "startYear": 105,
+    "type": "event",
+    "category": "technology",
+    "summary": "造纸技术改进推动书写材料普及，对文化传播影响深远。"
+  },
+  {
+    "id": "china-guandu",
+    "title": "官渡之战",
+    "startYear": 200,
+    "type": "event",
+    "category": "war",
+    "summary": "曹操击败袁绍，奠定统一北方的基础。"
+  },
+  {
+    "id": "china-western-jin-founded",
+    "title": "西晋建立",
+    "startYear": 266,
+    "type": "event",
+    "category": "politics",
+    "summary": "司马炎代魏称帝，建立西晋。"
+  },
+  {
+    "id": "china-eight-princes",
+    "title": "八王之乱",
+    "startYear": 291,
+    "endYear": 306,
+    "type": "event",
+    "category": "war",
+    "summary": "西晋宗室内战，严重削弱中央政权。"
+  },
+  {
+    "id": "china-yongjia",
+    "title": "永嘉之乱",
+    "startYear": 311,
+    "type": "event",
+    "category": "war",
+    "summary": "洛阳陷落，西晋统治遭受沉重打击。"
+  },
+  {
+    "id": "china-feishui",
+    "title": "淝水之战",
+    "startYear": 383,
+    "type": "event",
+    "category": "war",
+    "summary": "东晋击败前秦，南北对峙格局继续延续。"
+  },
+  {
+    "id": "china-xiaowen-reform",
+    "title": "北魏孝文帝改革",
+    "startYear": 471,
+    "endYear": 499,
+    "type": "event",
+    "category": "politics",
+    "summary": "北魏推行迁都洛阳、汉化制度等改革，促进民族融合。"
+  },
+  {
+    "id": "china-imperial-exam",
+    "title": "科举制度形成",
+    "startYear": 605,
+    "type": "event",
+    "category": "culture",
+    "summary": "隋代科举制度逐渐成形，影响此后中国官僚选拔体系。"
+  },
+  {
+    "id": "china-grand-canal",
+    "title": "大运河贯通",
+    "startYear": 605,
+    "endYear": 610,
+    "type": "event",
+    "category": "economy",
+    "summary": "隋代大运河工程加强南北交通与物资调运。"
+  },
+  {
+    "id": "china-talas",
+    "title": "怛罗斯之战",
+    "startYear": 751,
+    "type": "event",
+    "category": "war",
+    "summary": "唐与阿拔斯势力在中亚交战，反映欧亚腹地力量格局变化。"
+  },
+  {
+    "id": "china-liangshui",
+    "title": "两税法推行",
+    "startYear": 780,
+    "type": "event",
+    "category": "economy",
+    "summary": "唐德宗时期推行两税法，改变以人丁为中心的赋税结构。"
+  },
+  {
+    "id": "china-chenqiao",
+    "title": "陈桥兵变",
+    "startYear": 960,
+    "type": "event",
+    "category": "politics",
+    "summary": "赵匡胤被拥立为帝，北宋建立。"
+  },
+  {
+    "id": "china-qingli-reform",
+    "title": "庆历新政",
+    "startYear": 1043,
+    "endYear": 1045,
+    "type": "event",
+    "category": "politics",
+    "summary": "范仲淹等人推动的北宋改革尝试，涉及吏治、教育和边防。"
+  },
+  {
+    "id": "china-bisheng",
+    "title": "毕昇活字印刷",
+    "startYear": 1040,
+    "type": "event",
+    "category": "technology",
+    "summary": "北宋时期活字印刷术出现，是印刷技术史上的重要突破。"
+  },
+  {
+    "id": "china-mongol-jin-war",
+    "title": "蒙金战争",
+    "startYear": 1211,
+    "endYear": 1234,
+    "type": "event",
+    "category": "war",
+    "summary": "蒙古与金朝长期战争，最终金朝灭亡。"
+  },
+  {
+    "id": "china-red-turban",
+    "title": "红巾军起义",
+    "startYear": 1351,
+    "endYear": 1368,
+    "type": "event",
+    "category": "revolution",
+    "summary": "元末大规模民变，推动元朝统治瓦解和明朝兴起。"
+  },
+  {
+    "id": "china-yongle-encyclopedia",
+    "title": "永乐大典编成",
+    "startYear": 1408,
+    "type": "event",
+    "category": "culture",
+    "summary": "明成祖时期编成大型类书，汇集古代文献资料。"
+  },
+  {
+    "id": "china-zhang-juzheng-reform",
+    "title": "张居正改革",
+    "startYear": 1572,
+    "endYear": 1582,
+    "type": "event",
+    "category": "politics",
+    "summary": "明代后期整顿吏治、财政和赋役制度的重要改革。"
+  },
+  {
+    "id": "china-one-whip",
+    "title": "一条鞭法推广",
+    "startYear": 1581,
+    "type": "event",
+    "category": "economy",
+    "summary": "明代赋役折银征收的制度改革，改变财政与基层征收方式。"
+  },
+  {
+    "id": "china-late-ming-peasant-war",
+    "title": "明末农民战争",
+    "startYear": 1627,
+    "endYear": 1644,
+    "type": "event",
+    "category": "war",
+    "summary": "明末财政、灾荒与社会矛盾激化下爆发的大规模战争。"
+  },
+  {
+    "id": "china-zheng-chenggong-taiwan",
+    "title": "郑成功收复台湾",
+    "startYear": 1662,
+    "type": "event",
+    "category": "war",
+    "summary": "郑成功驱逐荷兰殖民者，建立明郑政权。"
+  },
+  {
+    "id": "china-nerchinsk",
+    "title": "尼布楚条约",
+    "startYear": 1689,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "清朝与俄国签订边界条约，划定中俄东段边界。"
+  },
+  {
+    "id": "china-lifan-yuan",
+    "title": "军机处设立",
+    "startYear": 1729,
+    "type": "event",
+    "category": "politics",
+    "summary": "清代中央决策机制进一步集中，军机处成为重要中枢机构。"
+  },
+  {
+    "id": "china-qianlong-dzungar",
+    "title": "平定准噶尔",
+    "startYear": 1755,
+    "endYear": 1759,
+    "type": "event",
+    "category": "war",
+    "summary": "清朝击败准噶尔势力，西北边疆格局发生重大变化。"
+  },
+  {
+    "id": "china-first-sino-japanese-war",
+    "title": "甲午战争",
+    "startYear": 1894,
+    "endYear": 1895,
+    "type": "event",
+    "category": "war",
+    "summary": "清朝与日本爆发战争，战败后签订《马关条约》。"
+  },
+  {
+    "id": "china-new-culture",
+    "title": "新文化运动",
+    "startYear": 1915,
+    "endYear": 1923,
+    "type": "event",
+    "category": "culture",
+    "summary": "以民主、科学、白话文等为核心诉求的思想文化运动。"
+  },
+  {
+    "id": "china-ccp-founded",
+    "title": "中国共产党成立",
+    "startYear": 1921,
+    "type": "event",
+    "category": "politics",
+    "summary": "中国共产党第一次全国代表大会召开，政党组织正式建立。"
+  },
+  {
+    "id": "china-nanjing-decade",
+    "title": "南京国民政府时期",
+    "startYear": 1928,
+    "endYear": 1937,
+    "type": "event",
+    "category": "politics",
+    "summary": "国民政府定都南京后的相对统一建设阶段。"
+  },
+  {
+    "id": "china-long-march",
+    "title": "长征",
+    "startYear": 1934,
+    "endYear": 1936,
+    "type": "event",
+    "category": "war",
+    "summary": "中国工农红军战略转移，对中国革命进程影响深远。"
+  },
+  {
+    "id": "china-civil-war-late",
+    "title": "解放战争",
+    "startYear": 1946,
+    "endYear": 1949,
+    "type": "event",
+    "category": "war",
+    "summary": "国共两党之间的全国性战争，最终中华人民共和国成立。"
+  },
+  {
+    "id": "china-first-five-year-plan",
+    "title": "第一个五年计划",
+    "startYear": 1953,
+    "endYear": 1957,
+    "type": "event",
+    "category": "economy",
+    "summary": "新中国工业化建设的重要起步阶段。"
+  },
+  {
+    "id": "china-constitution-1954",
+    "title": "1954年宪法",
+    "startYear": 1954,
+    "type": "event",
+    "category": "politics",
+    "summary": "第一届全国人民代表大会通过中华人民共和国第一部宪法。"
+  },
+  {
+    "id": "china-gaokao-restored",
+    "title": "恢复高考",
+    "startYear": 1977,
+    "type": "event",
+    "category": "culture",
+    "summary": "全国高等学校招生考试恢复，改变了一代人的教育与社会流动路径。"
+  },
+  {
+    "id": "china-market-economy-goal",
+    "title": "确立社会主义市场经济目标",
+    "startYear": 1992,
+    "type": "event",
+    "category": "economy",
+    "summary": "中国明确经济体制改革目标，市场化改革进一步推进。"
+  },
+  {
+    "id": "china-shenzhou-5",
+    "title": "神舟五号载人飞行",
+    "startYear": 2003,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国首次载人航天飞行成功。"
+  },
+  {
+    "id": "china-shanghai-expo",
+    "title": "上海世博会",
+    "startYear": 2010,
+    "type": "event",
+    "category": "culture",
+    "summary": "上海举办世界博览会，展示城市化和国际交流主题。"
+  },
+  {
+    "id": "china-belt-road",
+    "title": "一带一路倡议",
+    "startYear": 2013,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "中国提出共建丝绸之路经济带和21世纪海上丝绸之路倡议。"
+  },
+  {
+    "id": "china-beijing-winter-olympics",
+    "title": "北京冬奥会",
+    "startYear": 2022,
+    "type": "event",
+    "category": "culture",
+    "summary": "北京举办第24届冬季奥林匹克运动会，成为双奥之城。"
+  },
+  {
+    "id": "china-yu-great-flood-control",
+    "title": "大禹治水",
+    "startYear": -2100,
+    "endYear": -2070,
+    "type": "event",
+    "category": "politics",
+    "summary": "传统史书中关于治水、部落联盟与早期王权形成的重要叙事。"
+  },
+  {
+    "id": "china-zhougong-regency",
+    "title": "周公摄政",
+    "startYear": -1042,
+    "endYear": -1035,
+    "type": "event",
+    "category": "politics",
+    "summary": "周初周公辅佐成王，平定内乱并完善周代礼制政治。"
+  },
+  {
+    "id": "china-chengkang-rule",
+    "title": "成康之治",
+    "startYear": -1042,
+    "endYear": -996,
+    "type": "event",
+    "category": "politics",
+    "summary": "西周早期相对稳定的治理阶段，后世视为周政清明时期。"
+  },
+  {
+    "id": "china-liwang-exile",
+    "title": "国人暴动",
+    "startYear": -841,
+    "type": "event",
+    "category": "politics",
+    "summary": "周厉王失政引发国人暴动，厉王出奔，西周王权受到冲击。"
+  },
+  {
+    "id": "china-qi-huan-hegemony",
+    "title": "齐桓公称霸",
+    "startYear": -651,
+    "type": "event",
+    "category": "politics",
+    "summary": "葵丘会盟后齐桓公霸业达到高峰，成为春秋五霸代表。"
+  },
+  {
+    "id": "china-wu-yue-war",
+    "title": "吴越争霸",
+    "startYear": -506,
+    "endYear": -473,
+    "type": "event",
+    "category": "war",
+    "summary": "春秋晚期吴、越两国长期争霸，最终越灭吴。"
+  },
+  {
+    "id": "china-three-families-jin",
+    "title": "三家分晋",
+    "startYear": -403,
+    "type": "event",
+    "category": "politics",
+    "summary": "周天子承认韩、赵、魏为诸侯，常被视为战国时代的重要标志。"
+  },
+  {
+    "id": "china-ma-ling",
+    "title": "马陵之战",
+    "startYear": -341,
+    "type": "event",
+    "category": "war",
+    "summary": "齐军击败魏军，魏国霸势受挫，战国格局继续变化。"
+  },
+  {
+    "id": "china-zhengguo-canal",
+    "title": "郑国渠修成",
+    "startYear": -246,
+    "type": "event",
+    "category": "technology",
+    "summary": "秦国大型水利工程，提高关中农业生产能力。"
+  },
+  {
+    "id": "china-first-emperor-dies",
+    "title": "秦始皇去世",
+    "startYear": -210,
+    "type": "event",
+    "category": "politics",
+    "summary": "秦始皇东巡途中去世，秦朝继承与政局迅速恶化。"
+  },
+  {
+    "id": "china-hongmen-banquet",
+    "title": "鸿门宴",
+    "startYear": -206,
+    "type": "event",
+    "category": "politics",
+    "summary": "楚汉相争前的重要政治事件，反映项羽、刘邦势力关系。"
+  },
+  {
+    "id": "china-heqin-xiongnu",
+    "title": "汉匈和亲",
+    "startYear": -198,
+    "endYear": -133,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "西汉初期与匈奴维持和亲关系，是边疆外交的重要阶段。"
+  },
+  {
+    "id": "china-baima-alliance",
+    "title": "白马之盟",
+    "startYear": -195,
+    "type": "event",
+    "category": "politics",
+    "summary": "汉高祖与群臣立下非刘氏不得王等政治约定，影响汉初政治结构。"
+  },
+  {
+    "id": "china-seven-states-rebellion",
+    "title": "七国之乱",
+    "startYear": -154,
+    "type": "event",
+    "category": "war",
+    "summary": "西汉诸侯王叛乱，平定后中央集权进一步加强。"
+  },
+  {
+    "id": "china-han-xiongnu-war",
+    "title": "汉匈战争",
+    "startYear": -133,
+    "endYear": -89,
+    "type": "event",
+    "category": "war",
+    "summary": "汉武帝时期对匈奴的大规模军事行动，改变北方边疆格局。"
+  },
+  {
+    "id": "china-hexi-corridor",
+    "title": "河西四郡设置",
+    "startYear": -121,
+    "type": "event",
+    "category": "politics",
+    "summary": "西汉在河西走廊设置郡县，打通通往西域的重要通道。"
+  },
+  {
+    "id": "china-western-regions-protectorate",
+    "title": "西域都护府设置",
+    "startYear": -60,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "西汉设置西域都护，加强对西域交通与诸国关系的经营。"
+  },
+  {
+    "id": "china-lulin-chimei",
+    "title": "绿林赤眉起义",
+    "startYear": 17,
+    "endYear": 27,
+    "type": "event",
+    "category": "revolution",
+    "summary": "新莽末年大规模民变，推动新朝灭亡和东汉建立。"
+  },
+  {
+    "id": "china-mingtang-biyong",
+    "title": "明章之治",
+    "startYear": 57,
+    "endYear": 88,
+    "type": "event",
+    "category": "politics",
+    "summary": "东汉明帝、章帝时期政治相对稳定、经济文化发展。"
+  },
+  {
+    "id": "china-zhang-heng-seismoscope",
+    "title": "张衡候风地动仪",
+    "startYear": 132,
+    "type": "event",
+    "category": "technology",
+    "summary": "张衡创制候风地动仪，体现东汉科学技术成就。"
+  },
+  {
+    "id": "china-danggu",
+    "title": "党锢之祸",
+    "startYear": 166,
+    "endYear": 184,
+    "type": "event",
+    "category": "politics",
+    "summary": "东汉后期士人与宦官集团冲突激化，政治生态恶化。"
+  },
+  {
+    "id": "china-dong-zhuo-luoyang",
+    "title": "董卓入洛",
+    "startYear": 189,
+    "type": "event",
+    "category": "politics",
+    "summary": "董卓控制朝廷，东汉中央秩序进一步崩坏。"
+  },
+  {
+    "id": "china-yiling",
+    "title": "夷陵之战",
+    "startYear": 222,
+    "type": "event",
+    "category": "war",
+    "summary": "吴蜀之间的关键战役，蜀汉东进受挫。"
+  },
+  {
+    "id": "china-shu-han-fall",
+    "title": "蜀汉灭亡",
+    "startYear": 263,
+    "type": "event",
+    "category": "war",
+    "summary": "魏军攻入成都，刘禅投降，蜀汉政权灭亡。"
+  },
+  {
+    "id": "china-wu-fall",
+    "title": "东吴灭亡",
+    "startYear": 280,
+    "type": "event",
+    "category": "war",
+    "summary": "西晋灭吴，结束三国鼎立局面。"
+  },
+  {
+    "id": "china-tuwa-dynasties",
+    "title": "五胡十六国",
+    "startYear": 304,
+    "endYear": 439,
+    "type": "event",
+    "category": "war",
+    "summary": "北方政权更替频繁、族群融合加速的分裂时代。"
+  },
+  {
+    "id": "china-liu-yu-song",
+    "title": "刘裕代晋",
+    "startYear": 420,
+    "type": "event",
+    "category": "politics",
+    "summary": "刘裕建立刘宋，东晋结束，南朝开始。"
+  },
+  {
+    "id": "china-northern-wei-unify-north",
+    "title": "北魏统一北方",
+    "startYear": 439,
+    "type": "event",
+    "category": "war",
+    "summary": "北魏灭北凉，基本统一中国北方。"
+  },
+  {
+    "id": "china-houjing-rebellion",
+    "title": "侯景之乱",
+    "startYear": 548,
+    "endYear": 552,
+    "type": "event",
+    "category": "war",
+    "summary": "梁朝爆发严重内乱，江南社会与南朝政治受到重创。"
+  },
+  {
+    "id": "china-sui-yangdi-throne",
+    "title": "隋炀帝即位",
+    "startYear": 604,
+    "type": "event",
+    "category": "politics",
+    "summary": "杨广即位，隋朝进入大规模工程、征伐与社会压力累积阶段。"
+  },
+  {
+    "id": "china-sui-goguryeo-wars",
+    "title": "隋征高句丽",
+    "startYear": 598,
+    "endYear": 614,
+    "type": "event",
+    "category": "war",
+    "summary": "隋朝多次征伐高句丽，消耗国力并加速隋末危机。"
+  },
+  {
+    "id": "china-li-yuan-taiyuan",
+    "title": "李渊太原起兵",
+    "startYear": 617,
+    "type": "event",
+    "category": "war",
+    "summary": "李渊在太原起兵，成为唐朝建立的直接前奏。"
+  },
+  {
+    "id": "china-rule-of-yonghui",
+    "title": "永徽之治",
+    "startYear": 650,
+    "endYear": 655,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐高宗前期延续贞观政治传统，社会相对稳定。"
+  },
+  {
+    "id": "china-tubo-alliance",
+    "title": "文成公主入藏",
+    "startYear": 641,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "唐与吐蕃联姻，促进中原与青藏高原的政治文化交流。"
+  },
+  {
+    "id": "china-tang-gaozong-korea",
+    "title": "唐灭高句丽",
+    "startYear": 668,
+    "type": "event",
+    "category": "war",
+    "summary": "唐与新罗联合灭高句丽，东北亚格局发生变化。"
+  },
+  {
+    "id": "china-yongzhen-reform",
+    "title": "永贞革新",
+    "startYear": 805,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐顺宗时期短暂改革，试图抑制宦官和藩镇势力。"
+  },
+  {
+    "id": "china-ganlu-incident",
+    "title": "甘露之变",
+    "startYear": 835,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐文宗诛宦官失败，宦官势力进一步控制朝政。"
+  },
+  {
+    "id": "china-zhou-shizong-reforms",
+    "title": "周世宗改革",
+    "startYear": 954,
+    "endYear": 959,
+    "type": "event",
+    "category": "politics",
+    "summary": "后周世宗整军经武、改革财政，为北宋统一奠定条件。"
+  },
+  {
+    "id": "china-cup-wine",
+    "title": "杯酒释兵权",
+    "startYear": 961,
+    "type": "event",
+    "category": "politics",
+    "summary": "宋太祖削弱武将兵权，加强中央集权。"
+  },
+  {
+    "id": "china-chanyuan-treaty",
+    "title": "澶渊之盟",
+    "startYear": 1005,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "北宋与辽订立盟约，维持宋辽长期相对和平。"
+  },
+  {
+    "id": "china-fangla",
+    "title": "方腊起义",
+    "startYear": 1120,
+    "endYear": 1121,
+    "type": "event",
+    "category": "revolution",
+    "summary": "北宋末年东南地区大规模起义，反映社会矛盾加剧。"
+  },
+  {
+    "id": "china-yue-fei-northern-expedition",
+    "title": "岳飞北伐",
+    "startYear": 1134,
+    "endYear": 1140,
+    "type": "event",
+    "category": "war",
+    "summary": "南宋抗金军事行动的重要阶段。"
+  },
+  {
+    "id": "china-shaoxing-peace",
+    "title": "绍兴和议",
+    "startYear": 1141,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "南宋与金达成和议，确立宋金南北对峙格局。"
+  },
+  {
+    "id": "china-lin-an-fall",
+    "title": "临安陷落",
+    "startYear": 1276,
+    "type": "event",
+    "category": "war",
+    "summary": "元军攻入临安，南宋政权核心瓦解。"
+  },
+  {
+    "id": "china-yamen",
+    "title": "崖山海战",
+    "startYear": 1279,
+    "type": "event",
+    "category": "war",
+    "summary": "南宋最后抵抗失败，宋朝彻底灭亡。"
+  },
+  {
+    "id": "china-yuan-canal-renovation",
+    "title": "元修大都至江南漕运",
+    "startYear": 1283,
+    "endYear": 1293,
+    "type": "event",
+    "category": "economy",
+    "summary": "元代整修和贯通运河漕运体系，服务大都粮食供应。"
+  },
+  {
+    "id": "china-ming-capital-nanjing",
+    "title": "明定都南京",
+    "startYear": 1368,
+    "type": "event",
+    "category": "politics",
+    "summary": "朱元璋建立明朝后以南京为都，展开制度建设。"
+  },
+  {
+    "id": "china-hongwu-code",
+    "title": "《大明律》颁行",
+    "startYear": 1397,
+    "type": "event",
+    "category": "politics",
+    "summary": "明代基本法典定型，对后世法制有重要影响。"
+  },
+  {
+    "id": "china-yongle-beijing",
+    "title": "永乐迁都北京",
+    "startYear": 1421,
+    "type": "event",
+    "category": "politics",
+    "summary": "明成祖正式迁都北京，形成北京为全国政治中心的格局。"
+  },
+  {
+    "id": "china-liu-jin-fall",
+    "title": "刘瑾伏诛",
+    "startYear": 1510,
+    "type": "event",
+    "category": "politics",
+    "summary": "明武宗时期权宦刘瑾被诛，反映明代中后期宦官政治问题。"
+  },
+  {
+    "id": "china-jiajing-wokou",
+    "title": "嘉靖倭患",
+    "startYear": 1522,
+    "endYear": 1566,
+    "type": "event",
+    "category": "war",
+    "summary": "明代东南沿海倭患严重，朝廷长期组织海防与剿倭。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-wanli-korea-war",
+    "title": "万历援朝战争",
+    "startYear": 1592,
+    "endYear": 1598,
+    "type": "event",
+    "category": "war",
+    "summary": "明朝出兵援助朝鲜抵抗日本侵略，是东亚国际战争。"
+  },
+  {
+    "id": "china-sarhu",
+    "title": "萨尔浒之战",
+    "startYear": 1619,
+    "type": "event",
+    "category": "war",
+    "summary": "明军对后金作战失败，辽东局势发生重大转折。"
+  },
+  {
+    "id": "china-dorgon-enters",
+    "title": "清军入关",
+    "startYear": 1644,
+    "type": "event",
+    "category": "war",
+    "summary": "清军入山海关并进入北京，明清鼎革进入关键阶段。"
+  },
+  {
+    "id": "china-three-feudatories",
+    "title": "三藩之乱",
+    "startYear": 1673,
+    "endYear": 1681,
+    "type": "event",
+    "category": "war",
+    "summary": "清初平定吴三桂等三藩叛乱，中央权威进一步巩固。"
+  },
+  {
+    "id": "china-taiwan-qing",
+    "title": "清廷统一台湾",
+    "startYear": 1683,
+    "type": "event",
+    "category": "war",
+    "summary": "施琅率清军攻取台湾，明郑政权结束。"
+  },
+  {
+    "id": "china-gaitu-guiliu",
+    "title": "改土归流",
+    "startYear": 1726,
+    "endYear": 1735,
+    "type": "event",
+    "category": "politics",
+    "summary": "清代在西南地区推进地方治理制度调整，加强中央管理。"
+  },
+  {
+    "id": "china-white-lotus",
+    "title": "白莲教起义",
+    "startYear": 1796,
+    "endYear": 1804,
+    "type": "event",
+    "category": "revolution",
+    "summary": "清中后期大规模民变，暴露财政和基层治理压力。"
+  },
+  {
+    "id": "china-lin-zexu-humen",
+    "title": "虎门销烟",
+    "startYear": 1839,
+    "type": "event",
+    "category": "politics",
+    "summary": "林则徐在虎门销毁鸦片，成为鸦片战争前的重要事件。"
+  },
+  {
+    "id": "china-treaty-nanjing",
+    "title": "《南京条约》签订",
+    "startYear": 1842,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "鸦片战争后清朝与英国签订条约，中国近代不平等条约体系开端。"
+  },
+  {
+    "id": "china-second-opium-war",
+    "title": "第二次鸦片战争",
+    "startYear": 1856,
+    "endYear": 1860,
+    "type": "event",
+    "category": "war",
+    "summary": "英法联军对清战争，清廷被迫签订一系列条约。"
+  },
+  {
+    "id": "china-treaty-tianjin-beijing",
+    "title": "《北京条约》签订",
+    "startYear": 1860,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "第二次鸦片战争后签订的条约，进一步扩大列强权益。"
+  },
+  {
+    "id": "china-tongzhi-restoration",
+    "title": "同治中兴",
+    "startYear": 1862,
+    "endYear": 1874,
+    "type": "event",
+    "category": "politics",
+    "summary": "清廷在内乱后试图恢复秩序、推进洋务和财政整顿的阶段。"
+  },
+  {
+    "id": "china-xinjiang-province",
+    "title": "新疆建省",
+    "startYear": 1884,
+    "type": "event",
+    "category": "politics",
+    "summary": "清廷在新疆正式建省，加强西北边疆治理。"
+  },
+  {
+    "id": "china-late-qing-new-policies",
+    "title": "清末新政",
+    "startYear": 1901,
+    "endYear": 1911,
+    "type": "event",
+    "category": "politics",
+    "summary": "清廷推行新式教育、军事、官制和预备立宪等改革。"
+  },
+  {
+    "id": "china-imperial-exam-abolished",
+    "title": "废除科举",
+    "startYear": 1905,
+    "type": "event",
+    "category": "culture",
+    "summary": "清廷废止科举制度，传统官员选拔体系终结。"
+  },
+  {
+    "id": "china-wuchang-uprising",
+    "title": "武昌起义",
+    "startYear": 1911,
+    "type": "event",
+    "category": "revolution",
+    "summary": "武昌新军起义爆发，辛亥革命迅速扩展。"
+  },
+  {
+    "id": "china-qing-abdication",
+    "title": "清帝退位",
+    "startYear": 1912,
+    "type": "event",
+    "category": "politics",
+    "summary": "宣统帝退位，清朝统治结束，中国两千多年帝制终结。"
+  },
+  {
+    "id": "china-yuan-shikai-emperor",
+    "title": "袁世凯称帝",
+    "startYear": 1915,
+    "type": "event",
+    "category": "politics",
+    "summary": "袁世凯宣布恢复帝制，引发护国运动。"
+  },
+  {
+    "id": "china-warlord-era",
+    "title": "军阀混战",
+    "startYear": 1916,
+    "endYear": 1928,
+    "type": "event",
+    "category": "war",
+    "summary": "北洋政府时期各派军阀争夺中央和地方权力。"
+  },
+  {
+    "id": "china-918-incident",
+    "title": "九一八事变",
+    "startYear": 1931,
+    "type": "event",
+    "category": "war",
+    "summary": "日本发动侵占中国东北的事变，中国局部抗战开始。"
+  },
+  {
+    "id": "china-xian-incident",
+    "title": "西安事变",
+    "startYear": 1936,
+    "type": "event",
+    "category": "politics",
+    "summary": "张学良、杨虎城扣押蒋介石，推动抗日民族统一战线形成。"
+  },
+  {
+    "id": "china-lugouqiao",
+    "title": "卢沟桥事变",
+    "startYear": 1937,
+    "type": "event",
+    "category": "war",
+    "summary": "七七事变爆发，中国全民族抗战开始。"
+  },
+  {
+    "id": "china-nanjing-massacre",
+    "title": "南京大屠杀",
+    "startYear": 1937,
+    "type": "event",
+    "category": "war",
+    "summary": "日军攻陷南京后制造大规模屠杀，是抗日战争中的重大惨案。"
+  },
+  {
+    "id": "china-hundred-regiments",
+    "title": "百团大战",
+    "startYear": 1940,
+    "type": "event",
+    "category": "war",
+    "summary": "八路军在华北发动的大规模破袭战。"
+  },
+  {
+    "id": "china-japanese-surrender",
+    "title": "日本投降",
+    "startYear": 1945,
+    "type": "event",
+    "category": "war",
+    "summary": "日本宣布无条件投降，中国抗日战争胜利。"
+  },
+  {
+    "id": "china-land-reform",
+    "title": "土地改革",
+    "startYear": 1950,
+    "endYear": 1952,
+    "type": "event",
+    "category": "economy",
+    "summary": "新中国初期在广大新区推行土地改革，重塑农村土地关系。"
+  },
+  {
+    "id": "china-two-bombs-one-satellite",
+    "title": "两弹一星",
+    "startYear": 1964,
+    "endYear": 1970,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国原子弹、氢弹和人造卫星相继取得突破。"
+  },
+  {
+    "id": "china-us-diplomacy-1972",
+    "title": "尼克松访华",
+    "startYear": 1972,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "中美关系破冰，国际格局和中国外交空间发生变化。"
+  },
+  {
+    "id": "china-third-plenum-1978",
+    "title": "十一届三中全会",
+    "startYear": 1978,
+    "type": "event",
+    "category": "politics",
+    "summary": "会议作出把工作重点转移到社会主义现代化建设上的重大决策。"
+  },
+  {
+    "id": "china-special-economic-zones",
+    "title": "经济特区设立",
+    "startYear": 1980,
+    "type": "event",
+    "category": "economy",
+    "summary": "深圳、珠海、汕头、厦门等经济特区设立，成为改革开放窗口。"
+  },
+  {
+    "id": "china-1997-deng",
+    "title": "邓小平逝世",
+    "startYear": 1997,
+    "type": "event",
+    "category": "politics",
+    "summary": "中国改革开放和现代化建设重要领导人邓小平逝世。"
+  },
+  {
+    "id": "china-three-gorges",
+    "title": "三峡工程建设",
+    "startYear": 1994,
+    "endYear": 2012,
+    "type": "event",
+    "category": "technology",
+    "summary": "长江三峡水利枢纽工程建设，是大型水利与能源工程。"
+  },
+  {
+    "id": "china-high-speed-rail",
+    "title": "高速铁路快速发展",
+    "startYear": 2008,
+    "endYear": 2026,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国高速铁路网络快速扩展，成为现代交通基础设施的重要组成。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-tiangong-station",
+    "title": "中国空间站建成",
+    "startYear": 2022,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国空间站完成在轨建造，载人航天进入长期运营阶段。"
+  },
+  {
+    "id": "britain-roman-britain",
+    "title": "罗马不列颠",
+    "startYear": 43,
+    "endYear": 410,
+    "type": "era",
+    "category": "era",
+    "summary": "罗马帝国在不列颠岛南部和中部建立统治的时期。"
+  },
+  {
+    "id": "britain-norman-conquest",
+    "title": "诺曼征服",
+    "startYear": 1066,
+    "type": "event",
+    "category": "politics",
+    "summary": "诺曼底公爵威廉征服英格兰，改变英国政治与社会结构。"
+  },
+  {
+    "id": "britain-magna-carta",
+    "title": "大宪章",
+    "startYear": 1215,
+    "type": "event",
+    "category": "politics",
+    "summary": "英王约翰被迫承认限制王权的文书，影响后世宪政传统。"
+  },
+  {
+    "id": "britain-civil-war",
+    "title": "英国内战",
+    "startYear": 1642,
+    "endYear": 1651,
+    "type": "event",
+    "category": "war",
+    "summary": "议会派与王党派之间的战争，推动英国政治制度转型。"
+  },
+  {
+    "id": "britain-glorious-revolution",
+    "title": "光荣革命",
+    "startYear": 1688,
+    "type": "event",
+    "category": "revolution",
+    "summary": "詹姆斯二世被迫退位，君主立宪发展迈出关键一步。"
+  },
+  {
+    "id": "britain-victorian-era",
+    "title": "维多利亚时代",
+    "startYear": 1837,
+    "endYear": 1901,
+    "type": "era",
+    "category": "era",
+    "summary": "维多利亚女王统治时期，英国帝国扩张与工业社会成熟。"
+  },
+  {
+    "id": "japan-nara",
+    "title": "奈良时代",
+    "startYear": 710,
+    "endYear": 794,
+    "type": "era",
+    "category": "era",
+    "summary": "以平城京为中心的日本古代国家制度发展阶段。"
+  },
+  {
+    "id": "japan-heian",
+    "title": "平安时代",
+    "startYear": 794,
+    "endYear": 1185,
+    "type": "era",
+    "category": "era",
+    "summary": "以平安京为中心，贵族政治和日本古典文化发展的时期。"
+  },
+  {
+    "id": "japan-kamakura",
+    "title": "镰仓幕府",
+    "startYear": 1185,
+    "endYear": 1333,
+    "type": "era",
+    "category": "era",
+    "summary": "武家政权兴起并建立幕府统治的阶段。"
+  },
+  {
+    "id": "japan-muromachi",
+    "title": "室町幕府",
+    "startYear": 1336,
+    "endYear": 1573,
+    "type": "era",
+    "category": "era",
+    "summary": "足利氏幕府统治时期，后期走向战国动荡。"
+  },
+  {
+    "id": "japan-sengoku",
+    "title": "战国时代",
+    "startYear": 1467,
+    "endYear": 1603,
+    "type": "era",
+    "category": "era",
+    "summary": "地方大名割据混战，最终由织丰政权和德川氏完成统一。"
+  },
+  {
+    "id": "japan-edo",
+    "title": "江户时代",
+    "startYear": 1603,
+    "endYear": 1868,
+    "type": "era",
+    "category": "era",
+    "summary": "德川幕府统治时期，社会秩序稳定并实行长期锁国政策。"
+  },
+  {
+    "id": "japan-meiji-restoration",
+    "title": "明治维新",
+    "startYear": 1868,
+    "type": "event",
+    "category": "revolution",
+    "summary": "日本推翻幕府体制，启动近代国家建设。"
+  },
+  {
+    "id": "china-longshan-culture",
+    "title": "龙山文化",
+    "startYear": -3000,
+    "endYear": -1900,
+    "type": "event",
+    "category": "culture",
+    "summary": "黄河中下游地区重要的新石器时代晚期文化，城址、陶器和社会分化特征明显。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-oracle-bone-script",
+    "title": "甲骨文成熟",
+    "startYear": -1250,
+    "endYear": -1046,
+    "type": "event",
+    "category": "culture",
+    "summary": "商代晚期甲骨卜辞大量出现，是中国已知成熟文字体系的重要阶段。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-dujiangyan",
+    "title": "都江堰修建",
+    "startYear": -256,
+    "type": "event",
+    "category": "technology",
+    "summary": "秦蜀郡守李冰主持修建都江堰，长期影响成都平原水利与农业。"
+  },
+  {
+    "id": "china-lingqu-canal",
+    "title": "灵渠修建",
+    "startYear": -214,
+    "type": "event",
+    "category": "technology",
+    "summary": "秦代开凿灵渠，沟通湘江与漓江水系，加强南方交通与军政控制。"
+  },
+  {
+    "id": "china-nine-chapters",
+    "title": "《九章算术》成书",
+    "startYear": 100,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国古代数学经典逐渐定型，系统总结算术、方程、测量等实用数学知识。"
+  },
+  {
+    "id": "china-zu-chongzhi-pi",
+    "title": "祖冲之推算圆周率",
+    "startYear": 480,
+    "type": "event",
+    "category": "technology",
+    "summary": "南朝数学家祖冲之将圆周率精确到小数点后七位，代表古代数学成就。"
+  },
+  {
+    "id": "china-qimin-yaoshu",
+    "title": "《齐民要术》成书",
+    "startYear": 544,
+    "type": "event",
+    "category": "technology",
+    "summary": "贾思勰撰写的综合性农书，系统记录北方农业、畜牧和加工技术。"
+  },
+  {
+    "id": "china-woodblock-printing",
+    "title": "雕版印刷普及",
+    "startYear": 700,
+    "endYear": 900,
+    "type": "event",
+    "category": "technology",
+    "summary": "唐代以来雕版印刷逐渐成熟，推动佛经、历书和文献传播。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-gunpowder-military-use",
+    "title": "火药军事应用",
+    "startYear": 904,
+    "endYear": 1000,
+    "type": "event",
+    "category": "technology",
+    "summary": "晚唐五代至宋初，火药从炼丹知识逐渐进入军事应用。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-jiaozi",
+    "title": "交子发行",
+    "startYear": 1024,
+    "type": "event",
+    "category": "economy",
+    "summary": "北宋四川地区官方交子发行，是纸币制度史上的重要节点。"
+  },
+  {
+    "id": "china-mengxi-bitan",
+    "title": "《梦溪笔谈》成书",
+    "startYear": 1088,
+    "type": "event",
+    "category": "technology",
+    "summary": "沈括撰写的笔记体著作，记录天文、数学、地理、工艺等多方面知识。"
+  },
+  {
+    "id": "china-compass-navigation",
+    "title": "指南针航海应用",
+    "startYear": 1119,
+    "type": "event",
+    "category": "technology",
+    "summary": "宋代文献中出现指南针用于航海的明确记载，影响远洋交通发展。"
+  },
+  {
+    "id": "china-song-maritime-trade",
+    "title": "宋代海上贸易繁荣",
+    "startYear": 1000,
+    "endYear": 1279,
+    "type": "event",
+    "category": "economy",
+    "summary": "宋代市舶贸易、港口城市和海外交流活跃，海上贸易成为经济亮点。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-shoushi-calendar",
+    "title": "《授时历》颁行",
+    "startYear": 1281,
+    "type": "event",
+    "category": "technology",
+    "summary": "郭守敬等制定《授时历》，代表元代天文历法的重要成就。"
+  },
+  {
+    "id": "china-bencao-gangmu",
+    "title": "《本草纲目》刊行",
+    "startYear": 1596,
+    "type": "event",
+    "category": "technology",
+    "summary": "李时珍药物学著作《本草纲目》刊行，系统总结传统药物知识。"
+  },
+  {
+    "id": "china-tianggong-kaiwu",
+    "title": "《天工开物》刊行",
+    "startYear": 1637,
+    "type": "event",
+    "category": "technology",
+    "summary": "宋应星著作《天工开物》刊行，记录农业、手工业和矿冶技术。"
+  },
+  {
+    "id": "china-nongzheng-quanshu",
+    "title": "《农政全书》刊行",
+    "startYear": 1639,
+    "type": "event",
+    "category": "technology",
+    "summary": "徐光启等整理的农学著作刊行，汇集农业、水利和西学知识。"
+  },
+  {
+    "id": "china-siku-quanshu",
+    "title": "《四库全书》编纂",
+    "startYear": 1773,
+    "endYear": 1782,
+    "type": "event",
+    "category": "culture",
+    "summary": "清代大型丛书编纂工程，保存和整理大量古籍文献。"
+  },
+  {
+    "id": "china-jingzhang-railway",
+    "title": "京张铁路通车",
+    "startYear": 1909,
+    "type": "event",
+    "category": "technology",
+    "summary": "京张铁路建成通车，是中国自主设计和施工铁路的重要里程碑。"
+  },
+  {
+    "id": "china-hou-debang-process",
+    "title": "侯德榜制碱法",
+    "startYear": 1926,
+    "type": "event",
+    "category": "technology",
+    "summary": "侯德榜改进制碱工艺，推动中国近代化学工业发展。"
+  },
+  {
+    "id": "china-daqing-oilfield",
+    "title": "大庆油田发现",
+    "startYear": 1959,
+    "type": "event",
+    "category": "economy",
+    "summary": "大庆油田发现并开发，成为新中国能源工业的重要事件。"
+  },
+  {
+    "id": "china-atomic-bomb",
+    "title": "第一颗原子弹爆炸成功",
+    "startYear": 1964,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国第一颗原子弹爆炸成功，国防科技取得重大突破。"
+  },
+  {
+    "id": "china-dongfanghong-1",
+    "title": "东方红一号发射",
+    "startYear": 1970,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国第一颗人造地球卫星发射成功，进入航天时代。"
+  },
+  {
+    "id": "china-hybrid-rice",
+    "title": "杂交水稻突破",
+    "startYear": 1973,
+    "type": "event",
+    "category": "technology",
+    "summary": "袁隆平团队在杂交水稻研究中取得突破，对粮食生产影响深远。"
+  },
+  {
+    "id": "china-qinghai-tibet-railway",
+    "title": "青藏铁路通车",
+    "startYear": 2006,
+    "type": "event",
+    "category": "technology",
+    "summary": "青藏铁路全线通车，成为高原铁路工程的重要成就。"
+  },
+  {
+    "id": "china-beidou-global",
+    "title": "北斗全球系统建成",
+    "startYear": 2020,
+    "type": "event",
+    "category": "technology",
+    "summary": "北斗三号全球卫星导航系统建成开通，提供全球导航服务。"
+  },
+  {
+    "id": "china-change-5",
+    "title": "嫦娥五号月球采样返回",
+    "startYear": 2020,
+    "type": "event",
+    "category": "technology",
+    "summary": "嫦娥五号完成月球采样返回任务，标志中国深空探测能力提升。"
+  },
+  {
+    "id": "britain-bank-of-england",
+    "title": "英格兰银行成立",
+    "startYear": 1694,
+    "type": "event",
+    "category": "economy",
+    "summary": "英格兰银行成立，成为英国财政金融体系发展的重要节点。"
+  },
+  {
+    "id": "britain-spinning-jenny",
+    "title": "珍妮纺纱机发明",
+    "startYear": 1764,
+    "type": "event",
+    "category": "technology",
+    "summary": "珍妮纺纱机提高纺纱效率，是英国工业革命纺织技术的重要发明。"
+  },
+  {
+    "id": "britain-faraday-induction",
+    "title": "法拉第发现电磁感应",
+    "startYear": 1831,
+    "type": "event",
+    "category": "technology",
+    "summary": "法拉第发现电磁感应现象，为发电机和电力工业奠定基础。"
+  },
+  {
+    "id": "britain-stockton-darlington-railway",
+    "title": "斯托克顿-达灵顿铁路开通",
+    "startYear": 1825,
+    "type": "event",
+    "category": "technology",
+    "summary": "世界早期公共铁路之一开通，铁路运输进入重要发展阶段。"
+  },
+  {
+    "id": "britain-darwin-origin",
+    "title": "达尔文《物种起源》出版",
+    "startYear": 1859,
+    "type": "event",
+    "category": "culture",
+    "summary": "达尔文出版《物种起源》，进化论深刻影响科学和思想史。"
+  },
+  {
+    "id": "britain-jet-engine-flight",
+    "title": "喷气发动机试飞",
+    "startYear": 1941,
+    "type": "event",
+    "category": "technology",
+    "summary": "英国喷气式试验机首飞，喷气航空技术进入实用发展阶段。"
+  },
+  {
+    "id": "britain-world-wide-web",
+    "title": "万维网提出",
+    "startYear": 1989,
+    "type": "event",
+    "category": "technology",
+    "summary": "英国计算机科学家蒂姆·伯纳斯-李提出万维网设想，改变全球信息传播。"
+  },
+  {
+    "id": "japan-kojiki",
+    "title": "《古事记》成书",
+    "startYear": 712,
+    "type": "event",
+    "category": "culture",
+    "summary": "日本现存最早的史书之一《古事记》成书，对日本古代神话和历史叙事影响深远。"
+  },
+  {
+    "id": "japan-manyoshu",
+    "title": "《万叶集》成书",
+    "startYear": 759,
+    "type": "event",
+    "category": "culture",
+    "summary": "《万叶集》汇集古代和歌，是日本古典文学的重要源头。"
+  },
+  {
+    "id": "japan-teppo-introduction",
+    "title": "铁炮传入日本",
+    "startYear": 1543,
+    "type": "event",
+    "category": "technology",
+    "summary": "火绳枪传入日本，改变战国时代军事技术和战术。"
+  },
+  {
+    "id": "japan-kaitai-shinsho",
+    "title": "《解体新书》刊行",
+    "startYear": 1774,
+    "type": "event",
+    "category": "technology",
+    "summary": "日本翻译出版西方解剖学著作《解体新书》，推动近代医学知识传播。"
+  },
+  {
+    "id": "japan-tomioka-silk-mill",
+    "title": "富冈制丝厂投产",
+    "startYear": 1872,
+    "type": "event",
+    "category": "economy",
+    "summary": "富冈制丝厂投产，是明治时期引进近代工业技术的重要象征。"
+  },
+  {
+    "id": "japan-first-railway",
+    "title": "日本第一条铁路开通",
+    "startYear": 1872,
+    "type": "event",
+    "category": "technology",
+    "summary": "新桥至横滨铁路开通，标志日本近代交通建设起步。"
+  },
+  {
+    "id": "japan-high-growth",
+    "title": "日本高度经济成长期",
+    "startYear": 1955,
+    "endYear": 1973,
+    "type": "event",
+    "category": "economy",
+    "summary": "战后日本经济高速增长，制造业、出口和城市化迅速发展。",
+    "rail": "global_long"
+  },
+  {
+    "id": "japan-transistor-radio",
+    "title": "晶体管收音机商业化",
+    "startYear": 1955,
+    "type": "event",
+    "category": "technology",
+    "summary": "日本企业推出晶体管收音机，推动消费电子产业发展。"
+  },
+  {
+    "id": "japan-shinkansen",
+    "title": "东海道新干线开通",
+    "startYear": 1964,
+    "type": "event",
+    "category": "technology",
+    "summary": "东海道新干线开通，成为高速铁路史上的重要里程碑。"
+  },
+  {
+    "id": "japan-tokyo-olympics-1964",
+    "title": "东京奥运会",
+    "startYear": 1964,
+    "type": "event",
+    "category": "culture",
+    "summary": "东京举办夏季奥运会，展示战后日本复兴与基础设施现代化。"
+  },
+  {
+    "id": "japan-kyoto-protocol",
+    "title": "京都议定书通过",
+    "startYear": 1997,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "《京都议定书》在京都通过，成为全球气候治理的重要文件。"
+  },
+  {
+    "id": "china-battle-chengpu",
+    "title": "城濮之战",
+    "startYear": -632,
+    "type": "event",
+    "category": "war",
+    "summary": "晋、楚争霸中的关键战役，晋文公由此确立霸主地位。"
+  },
+  {
+    "id": "china-confucius-born",
+    "title": "孔子诞生",
+    "startYear": -551,
+    "type": "event",
+    "category": "culture",
+    "summary": "孔子出生于鲁国，其思想后来成为中国政治伦理与教育传统的重要基础。"
+  },
+  {
+    "id": "china-hundred-schools",
+    "title": "诸子百家兴起",
+    "startYear": -770,
+    "endYear": -221,
+    "type": "event",
+    "category": "culture",
+    "summary": "春秋战国时期思想学派活跃，儒、墨、道、法等学说围绕秩序、治理与人性展开竞争。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-qin-commandery-county-system",
+    "title": "郡县制全国推行",
+    "startYear": -221,
+    "type": "event",
+    "category": "politics",
+    "summary": "秦统一后在全国推行郡县制，加强中央对地方的直接控制。"
+  },
+  {
+    "id": "china-qin-standardization",
+    "title": "秦统一文字度量衡",
+    "startYear": -221,
+    "type": "event",
+    "category": "politics",
+    "summary": "秦朝统一文字、货币、度量衡和车轨，促进大一统国家的制度整合。"
+  },
+  {
+    "id": "china-han-tui-en-ling",
+    "title": "推恩令颁行",
+    "startYear": -127,
+    "type": "event",
+    "category": "politics",
+    "summary": "汉武帝采纳主父偃建议，削弱诸侯王势力，巩固中央集权。"
+  },
+  {
+    "id": "china-han-salt-iron-monopoly",
+    "title": "盐铁官营加强",
+    "startYear": -119,
+    "type": "event",
+    "category": "economy",
+    "summary": "汉武帝时期加强盐铁等官营政策，为边疆战争和国家财政提供支撑。"
+  },
+  {
+    "id": "china-shiji-completed",
+    "title": "《史记》成书",
+    "startYear": -91,
+    "type": "event",
+    "category": "culture",
+    "summary": "司马迁完成纪传体通史《史记》，深刻影响中国史学传统。"
+  },
+  {
+    "id": "china-white-horse-temple",
+    "title": "白马寺建立",
+    "startYear": 68,
+    "type": "event",
+    "category": "culture",
+    "summary": "洛阳白马寺建立，象征佛教在中原传播进入制度化阶段。"
+  },
+  {
+    "id": "china-nine-rank-system",
+    "title": "九品中正制形成",
+    "startYear": 220,
+    "type": "event",
+    "category": "politics",
+    "summary": "魏晋时期形成九品中正制，影响门阀士族政治与官员选拔。"
+  },
+  {
+    "id": "china-equal-field-system",
+    "title": "均田制推行",
+    "startYear": 485,
+    "type": "event",
+    "category": "economy",
+    "summary": "北魏孝文帝时期推行均田制，成为北朝至隋唐赋役制度的重要基础。"
+  },
+  {
+    "id": "china-zuyongdiao-system",
+    "title": "租庸调制确立",
+    "startYear": 624,
+    "type": "event",
+    "category": "economy",
+    "summary": "唐初确立以授田农民为基础的租庸调制，支撑前期国家财政。"
+  },
+  {
+    "id": "china-xuanzang-journey",
+    "title": "玄奘西行取经",
+    "startYear": 629,
+    "endYear": 645,
+    "type": "event",
+    "category": "culture",
+    "summary": "玄奘前往天竺求法并归国译经，推动佛教思想与中外文化交流。"
+  },
+  {
+    "id": "china-huichang-buddhist-persecution",
+    "title": "会昌灭佛",
+    "startYear": 845,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐武宗大规模裁撤佛寺和僧尼，改变中晚唐宗教与财政格局。"
+  },
+  {
+    "id": "china-xixia-founded",
+    "title": "西夏建立",
+    "startYear": 1038,
+    "type": "event",
+    "category": "politics",
+    "summary": "党项首领元昊称帝建国，西北形成宋、辽、夏并立格局。"
+  },
+  {
+    "id": "china-yuan-provincial-system",
+    "title": "行省制度成型",
+    "startYear": 1270,
+    "endYear": 1294,
+    "type": "event",
+    "category": "politics",
+    "summary": "元朝逐步确立行省制度，成为后世地方行政区划的重要来源。"
+  },
+  {
+    "id": "china-ming-cabinet-system",
+    "title": "明代内阁制度形成",
+    "startYear": 1402,
+    "type": "event",
+    "category": "politics",
+    "summary": "永乐以后内阁权能逐步增强，成为明代中枢决策的重要机制。"
+  },
+  {
+    "id": "china-longqing-opening",
+    "title": "隆庆开关",
+    "startYear": 1567,
+    "type": "event",
+    "category": "economy",
+    "summary": "明穆宗时期开放月港贸易，民间海外贸易和白银流入更加活跃。"
+  },
+  {
+    "id": "china-tanding-rumu",
+    "title": "摊丁入亩推行",
+    "startYear": 1712,
+    "type": "event",
+    "category": "economy",
+    "summary": "清代逐步将丁银并入田赋，改变传统人丁税负结构。"
+  },
+  {
+    "id": "china-canton-system",
+    "title": "广州一口通商",
+    "startYear": 1757,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "清廷限定广州为对西洋贸易口岸，形成所谓广州贸易体系。"
+  },
+  {
+    "id": "china-macartney-embassy",
+    "title": "马戛尔尼使团访华",
+    "startYear": 1793,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "英国马戛尔尼使团来华，折射清代中外礼仪、贸易与外交观念差异。"
+  },
+  {
+    "id": "china-tianjin-treaties",
+    "title": "《天津条约》签订",
+    "startYear": 1858,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "第二次鸦片战争期间签订《天津条约》，进一步扩大通商与外交开放。"
+  },
+  {
+    "id": "china-zongli-yamen",
+    "title": "总理衙门设立",
+    "startYear": 1861,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "清政府设立总理各国事务衙门，近代外交机构开始制度化。"
+  },
+  {
+    "id": "china-beiyang-fleet-founded",
+    "title": "北洋海军成军",
+    "startYear": 1888,
+    "type": "event",
+    "category": "technology",
+    "summary": "北洋海军正式成军，是晚清海防建设和洋务运动的重要成果。"
+  },
+  {
+    "id": "china-nanchang-uprising",
+    "title": "南昌起义",
+    "startYear": 1927,
+    "type": "event",
+    "category": "revolution",
+    "summary": "南昌起义爆发，被视为中国共产党独立领导武装斗争的重要开端。"
+  },
+  {
+    "id": "china-autumn-harvest-uprising",
+    "title": "秋收起义",
+    "startYear": 1927,
+    "type": "event",
+    "category": "revolution",
+    "summary": "湘赣边界秋收起义推动革命力量向农村根据地转移。"
+  },
+  {
+    "id": "china-zhunyi-conference",
+    "title": "遵义会议",
+    "startYear": 1935,
+    "type": "event",
+    "category": "politics",
+    "summary": "长征途中召开的重要会议，对中共中央军事和组织领导产生深远影响。"
+  },
+  {
+    "id": "china-un-restored-seat",
+    "title": "恢复联合国合法席位",
+    "startYear": 1971,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "第26届联合国大会通过决议，中华人民共和国恢复在联合国的合法席位。"
+  },
+  {
+    "id": "china-household-responsibility-system",
+    "title": "家庭联产承包责任制推广",
+    "startYear": 1978,
+    "endYear": 1983,
+    "type": "event",
+    "category": "economy",
+    "summary": "农村改革中家庭联产承包责任制逐步推广，显著释放农业生产活力。"
+  },
+  {
+    "id": "china-wto-accession",
+    "title": "中国加入世界贸易组织",
+    "startYear": 2001,
+    "type": "event",
+    "category": "economy",
+    "summary": "中国加入世界贸易组织，进一步融入全球贸易体系。"
+  },
+  {
+    "id": "china-beijing-tianjin-intercity",
+    "title": "京津城际铁路开通",
+    "startYear": 2008,
+    "type": "event",
+    "category": "technology",
+    "summary": "京津城际铁路开通运营，标志中国高速铁路进入快速建设阶段。"
+  },
+  {
+    "id": "china-c919-first-flight",
+    "title": "C919首飞",
+    "startYear": 2017,
+    "type": "event",
+    "category": "technology",
+    "summary": "国产大型客机C919完成首飞，体现民用航空制造能力的阶段性突破。"
+  },
+  {
+    "id": "china-confucius-dies",
+    "title": "孔子去世",
+    "startYear": -479,
+    "type": "event",
+    "category": "culture",
+    "summary": "孔子去世，后世儒家学派与经典传统持续发展。"
+  },
+  {
+    "id": "china-mencius-born",
+    "title": "孟子诞生",
+    "startYear": -372,
+    "type": "event",
+    "category": "culture",
+    "summary": "孟子约生于战国时期，其仁政思想成为儒家传统的重要组成。"
+  },
+  {
+    "id": "china-qu-yuan-miluo",
+    "title": "屈原投汨罗",
+    "startYear": -278,
+    "type": "event",
+    "category": "culture",
+    "summary": "楚国诗人屈原投汨罗江，后世端午文化与楚辞传统都与其记忆相连。"
+  },
+  {
+    "id": "china-qin-shi-huang-born",
+    "title": "秦始皇出生",
+    "startYear": -259,
+    "type": "event",
+    "category": "politics",
+    "summary": "嬴政出生，后成为秦王并完成中国历史上第一次大一统。"
+  },
+  {
+    "id": "china-han-wudi-born",
+    "title": "汉武帝出生",
+    "startYear": -156,
+    "type": "event",
+    "category": "politics",
+    "summary": "刘彻出生，后即位为汉武帝，推动西汉政治、军事和思想制度转型。"
+  },
+  {
+    "id": "china-han-wudi-dies",
+    "title": "汉武帝驾崩",
+    "startYear": -87,
+    "type": "event",
+    "category": "politics",
+    "summary": "汉武帝刘彻去世，西汉进入新的政治调整阶段。"
+  },
+  {
+    "id": "china-sima-qian-born",
+    "title": "司马迁诞生",
+    "startYear": -145,
+    "type": "event",
+    "category": "culture",
+    "summary": "司马迁约生于西汉，其《史记》成为中国纪传体史学典范。"
+  },
+  {
+    "id": "china-zhang-heng-born",
+    "title": "张衡诞生",
+    "startYear": 78,
+    "type": "event",
+    "category": "technology",
+    "summary": "张衡出生，后来在天文学、机械制造和文学方面都有重要成就。"
+  },
+  {
+    "id": "china-zhang-heng-armillary-sphere",
+    "title": "张衡改进浑天仪",
+    "startYear": 117,
+    "type": "event",
+    "category": "technology",
+    "summary": "张衡改进水运浑天仪，体现东汉天文观测与机械技术的发展。"
+  },
+  {
+    "id": "china-cao-cao-dies",
+    "title": "曹操去世",
+    "startYear": 220,
+    "type": "event",
+    "category": "politics",
+    "summary": "曹操去世，曹魏代汉的政治进程随后加速。"
+  },
+  {
+    "id": "china-luoshengfu-composed",
+    "title": "曹植《洛神赋》约作",
+    "startYear": 222,
+    "type": "event",
+    "category": "culture",
+    "summary": "《洛神赋》约作于曹魏时期，是中国辞赋与美术想象中极具影响力的名篇。"
+  },
+  {
+    "id": "china-lantingji-xu",
+    "title": "王羲之作《兰亭集序》",
+    "startYear": 353,
+    "type": "event",
+    "category": "culture",
+    "summary": "王羲之在兰亭雅集后写下《兰亭集序》，被后世奉为行书经典。"
+  },
+  {
+    "id": "china-tao-yuanming-born",
+    "title": "陶渊明诞生",
+    "startYear": 365,
+    "type": "event",
+    "category": "culture",
+    "summary": "陶渊明出生，田园诗传统的重要代表。"
+  },
+  {
+    "id": "china-tao-yuanming-dies",
+    "title": "陶渊明去世",
+    "startYear": 427,
+    "type": "event",
+    "category": "culture",
+    "summary": "陶渊明去世，其诗文成为中国隐逸与田园审美的重要源头。"
+  },
+  {
+    "id": "china-tang-taizong-born",
+    "title": "唐太宗出生",
+    "startYear": 598,
+    "type": "event",
+    "category": "politics",
+    "summary": "李世民出生，后即位为唐太宗，开创贞观之治。"
+  },
+  {
+    "id": "china-tang-taizong-dies",
+    "title": "唐太宗驾崩",
+    "startYear": 649,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐太宗李世民去世，唐朝进入高宗时期。"
+  },
+  {
+    "id": "china-wu-zetian-born",
+    "title": "武则天出生",
+    "startYear": 624,
+    "type": "event",
+    "category": "politics",
+    "summary": "武则天出生，后来成为中国历史上重要的女性统治者。"
+  },
+  {
+    "id": "china-wu-zetian-dies",
+    "title": "武则天去世",
+    "startYear": 705,
+    "type": "event",
+    "category": "politics",
+    "summary": "武则天去世，武周政治遗产继续影响唐代中后期。"
+  },
+  {
+    "id": "china-li-bai-born",
+    "title": "李白出生",
+    "startYear": 701,
+    "type": "event",
+    "category": "culture",
+    "summary": "李白出生，后成为盛唐诗歌最具代表性的诗人之一。"
+  },
+  {
+    "id": "china-li-bai-dies",
+    "title": "李白去世",
+    "startYear": 762,
+    "type": "event",
+    "category": "culture",
+    "summary": "李白去世，其诗歌持续塑造中国文学想象中的浪漫气质。"
+  },
+  {
+    "id": "china-du-fu-born",
+    "title": "杜甫出生",
+    "startYear": 712,
+    "type": "event",
+    "category": "culture",
+    "summary": "杜甫出生，后世尊其为“诗圣”。"
+  },
+  {
+    "id": "china-du-fu-chunwang",
+    "title": "杜甫《春望》作",
+    "startYear": 757,
+    "type": "event",
+    "category": "culture",
+    "summary": "安史之乱期间，杜甫写下《春望》，成为乱世家国之思的代表名篇。"
+  },
+  {
+    "id": "china-du-fu-dies",
+    "title": "杜甫去世",
+    "startYear": 770,
+    "type": "event",
+    "category": "culture",
+    "summary": "杜甫去世，其诗作被视为唐代社会生活和时代苦难的重要文学记录。"
+  },
+  {
+    "id": "china-wang-wei-born",
+    "title": "王维出生",
+    "startYear": 701,
+    "type": "event",
+    "category": "culture",
+    "summary": "王维出生，山水田园诗与诗画融合传统的重要代表。"
+  },
+  {
+    "id": "china-wang-wei-dies",
+    "title": "王维去世",
+    "startYear": 761,
+    "type": "event",
+    "category": "culture",
+    "summary": "王维去世，其作品影响中国山水诗与文人审美。"
+  },
+  {
+    "id": "china-bai-juyi-born",
+    "title": "白居易出生",
+    "startYear": 772,
+    "type": "event",
+    "category": "culture",
+    "summary": "白居易出生，后成为中唐新乐府运动和通俗诗风的重要诗人。"
+  },
+  {
+    "id": "china-changhenge-composed",
+    "title": "白居易《长恨歌》作",
+    "startYear": 806,
+    "type": "event",
+    "category": "culture",
+    "summary": "白居易写下《长恨歌》，以唐玄宗、杨贵妃故事成为流传极广的叙事诗。"
+  },
+  {
+    "id": "china-bai-juyi-dies",
+    "title": "白居易去世",
+    "startYear": 846,
+    "type": "event",
+    "category": "culture",
+    "summary": "白居易去世，其诗歌在东亚文学圈也有广泛影响。"
+  },
+  {
+    "id": "china-tang-xuanzong-born",
+    "title": "唐玄宗出生",
+    "startYear": 685,
+    "type": "event",
+    "category": "politics",
+    "summary": "李隆基出生，后即位为唐玄宗，其统治前后连接开元盛世与安史之乱。"
+  },
+  {
+    "id": "china-tang-xuanzong-dies",
+    "title": "唐玄宗驾崩",
+    "startYear": 762,
+    "type": "event",
+    "category": "politics",
+    "summary": "唐玄宗李隆基去世，象征盛唐记忆与安史之后政治格局的交叠。"
+  },
+  {
+    "id": "china-seng-yixing-meridian",
+    "title": "一行主持子午线测量",
+    "startYear": 725,
+    "type": "event",
+    "category": "technology",
+    "summary": "唐代僧一行等主持大规模天文测量，是中国古代科学史上的重要实践。"
+  },
+  {
+    "id": "china-su-shi-born",
+    "title": "苏轼出生",
+    "startYear": 1037,
+    "type": "event",
+    "category": "culture",
+    "summary": "苏轼出生，后成为宋代文学、书画和士人文化的代表人物。"
+  },
+  {
+    "id": "china-su-song-clocktower",
+    "title": "苏颂水运仪象台建成",
+    "startYear": 1092,
+    "type": "event",
+    "category": "technology",
+    "summary": "北宋苏颂等建成水运仪象台，体现天文、机械和计时技术的结合。"
+  },
+  {
+    "id": "china-su-shi-red-cliff-prose",
+    "title": "苏轼作前后《赤壁赋》",
+    "startYear": 1082,
+    "type": "event",
+    "category": "culture",
+    "summary": "苏轼贬居黄州期间写作前后《赤壁赋》，成为宋代散文名篇。"
+  },
+  {
+    "id": "china-su-shi-dies",
+    "title": "苏轼去世",
+    "startYear": 1101,
+    "type": "event",
+    "category": "culture",
+    "summary": "苏轼去世，其文学与人格形象长久影响中国文化。"
+  },
+  {
+    "id": "china-li-qingzhao-born",
+    "title": "李清照出生",
+    "startYear": 1084,
+    "type": "event",
+    "category": "culture",
+    "summary": "李清照出生，后成为宋词史上极具代表性的女词人。"
+  },
+  {
+    "id": "china-li-qingzhao-dies",
+    "title": "李清照去世",
+    "startYear": 1155,
+    "type": "event",
+    "category": "culture",
+    "summary": "李清照约于此时去世，其词作凝结了个人命运与时代变迁。"
+  },
+  {
+    "id": "china-lu-you-born",
+    "title": "陆游出生",
+    "startYear": 1125,
+    "type": "event",
+    "category": "culture",
+    "summary": "陆游出生，后成为南宋爱国诗歌的重要代表。"
+  },
+  {
+    "id": "china-lu-you-dies",
+    "title": "陆游去世",
+    "startYear": 1210,
+    "type": "event",
+    "category": "culture",
+    "summary": "陆游去世，其大量诗作保存了南宋士人的家国情怀。"
+  },
+  {
+    "id": "china-xin-qiji-born",
+    "title": "辛弃疾出生",
+    "startYear": 1140,
+    "type": "event",
+    "category": "culture",
+    "summary": "辛弃疾出生，后成为豪放词派重要代表。"
+  },
+  {
+    "id": "china-xin-qiji-dies",
+    "title": "辛弃疾去世",
+    "startYear": 1207,
+    "type": "event",
+    "category": "culture",
+    "summary": "辛弃疾去世，其词作承载南宋抗金理想与个人壮志。"
+  },
+  {
+    "id": "china-zhao-kuangyin-born",
+    "title": "宋太祖出生",
+    "startYear": 927,
+    "type": "event",
+    "category": "politics",
+    "summary": "赵匡胤出生，后建立宋朝。"
+  },
+  {
+    "id": "china-zhao-kuangyin-dies",
+    "title": "宋太祖驾崩",
+    "startYear": 976,
+    "type": "event",
+    "category": "politics",
+    "summary": "宋太祖赵匡胤去世，北宋初期政治进入太宗时期。"
+  },
+  {
+    "id": "china-zhu-yuanzhang-born",
+    "title": "朱元璋出生",
+    "startYear": 1328,
+    "type": "event",
+    "category": "politics",
+    "summary": "朱元璋出生，后来建立明朝。"
+  },
+  {
+    "id": "china-zhu-yuanzhang-dies",
+    "title": "朱元璋驾崩",
+    "startYear": 1398,
+    "type": "event",
+    "category": "politics",
+    "summary": "明太祖朱元璋去世，明朝皇位继承与藩王格局随后引发深远变化。"
+  },
+  {
+    "id": "china-zhu-di-born",
+    "title": "朱棣出生",
+    "startYear": 1360,
+    "type": "event",
+    "category": "politics",
+    "summary": "朱棣出生，后通过靖难之役即位为明成祖。"
+  },
+  {
+    "id": "china-zhu-di-dies",
+    "title": "明成祖驾崩",
+    "startYear": 1424,
+    "type": "event",
+    "category": "politics",
+    "summary": "明成祖朱棣去世，其迁都北京、远航和北征政策影响明代格局。"
+  },
+  {
+    "id": "china-kunyu-wanguo-quantu",
+    "title": "《坤舆万国全图》刊行",
+    "startYear": 1602,
+    "type": "event",
+    "category": "technology",
+    "summary": "利玛窦等绘制刊行《坤舆万国全图》，将新的世界地理知识带入明代知识界。"
+  },
+  {
+    "id": "china-euclid-elements-translation",
+    "title": "《几何原本》前六卷译成",
+    "startYear": 1607,
+    "type": "event",
+    "category": "technology",
+    "summary": "徐光启与利玛窦合作翻译《几何原本》前六卷，推动西方数学知识传入中国。"
+  },
+  {
+    "id": "china-peony-pavilion",
+    "title": "汤显祖《牡丹亭》刊行",
+    "startYear": 1598,
+    "type": "event",
+    "category": "culture",
+    "summary": "《牡丹亭》刊行，成为明代传奇和昆曲传统中的经典作品。"
+  },
+  {
+    "id": "china-journey-to-the-west-published",
+    "title": "《西游记》刊行",
+    "startYear": 1592,
+    "type": "event",
+    "category": "culture",
+    "summary": "《西游记》约在明代万历年间刊行，孙悟空等形象成为中国通俗文学经典。"
+  },
+  {
+    "id": "china-jin-ping-mei-published",
+    "title": "《金瓶梅词话》刊行",
+    "startYear": 1610,
+    "type": "event",
+    "category": "culture",
+    "summary": "《金瓶梅词话》约于明末刊行，是中国世情小说发展中的重要作品。"
+  },
+  {
+    "id": "china-kangxi-born",
+    "title": "康熙帝出生",
+    "startYear": 1654,
+    "type": "event",
+    "category": "politics",
+    "summary": "玄烨出生，后即位为康熙帝。"
+  },
+  {
+    "id": "china-kangxi-dies",
+    "title": "康熙帝驾崩",
+    "startYear": 1722,
+    "type": "event",
+    "category": "politics",
+    "summary": "康熙帝去世，清朝进入雍正时期。"
+  },
+  {
+    "id": "china-yongzheng-born",
+    "title": "雍正帝出生",
+    "startYear": 1678,
+    "type": "event",
+    "category": "politics",
+    "summary": "胤禛出生，后即位为雍正帝。"
+  },
+  {
+    "id": "china-yongzheng-dies",
+    "title": "雍正帝驾崩",
+    "startYear": 1735,
+    "type": "event",
+    "category": "politics",
+    "summary": "雍正帝去世，其财政、军机处与地方治理改革影响清代制度。"
+  },
+  {
+    "id": "china-qianlong-born",
+    "title": "乾隆帝出生",
+    "startYear": 1711,
+    "type": "event",
+    "category": "politics",
+    "summary": "弘历出生，后即位为乾隆帝。"
+  },
+  {
+    "id": "china-qianlong-dies",
+    "title": "乾隆帝驾崩",
+    "startYear": 1799,
+    "type": "event",
+    "category": "politics",
+    "summary": "乾隆帝去世，清代由盛转衰的结构性问题更加明显。"
+  },
+  {
+    "id": "china-cao-xueqin-born",
+    "title": "曹雪芹出生",
+    "startYear": 1715,
+    "type": "event",
+    "category": "culture",
+    "summary": "曹雪芹约生于清代，后来创作《红楼梦》。"
+  },
+  {
+    "id": "china-hongloumeng-circulates",
+    "title": "《红楼梦》抄本流传",
+    "startYear": 1754,
+    "type": "event",
+    "category": "culture",
+    "summary": "《石头记》早期抄本开始流传，《红楼梦》逐渐进入读者视野。"
+  },
+  {
+    "id": "china-cao-xueqin-dies",
+    "title": "曹雪芹去世",
+    "startYear": 1763,
+    "type": "event",
+    "category": "culture",
+    "summary": "曹雪芹约于此时去世，其《红楼梦》成为中国古典小说巅峰之一。"
+  },
+  {
+    "id": "china-cixi-born",
+    "title": "慈禧出生",
+    "startYear": 1835,
+    "type": "event",
+    "category": "politics",
+    "summary": "慈禧出生，后在晚清政治中长期掌握关键权力。"
+  },
+  {
+    "id": "china-guangxu-born",
+    "title": "光绪帝出生",
+    "startYear": 1871,
+    "type": "event",
+    "category": "politics",
+    "summary": "载湉出生，后即位为光绪帝。"
+  },
+  {
+    "id": "china-cixi-dies",
+    "title": "慈禧去世",
+    "startYear": 1908,
+    "type": "event",
+    "category": "politics",
+    "summary": "慈禧去世，晚清最高权力结构迅速瓦解。"
+  },
+  {
+    "id": "china-guangxu-dies",
+    "title": "光绪帝驾崩",
+    "startYear": 1908,
+    "type": "event",
+    "category": "politics",
+    "summary": "光绪帝去世，清廷随后进入宣统时期。"
+  },
+  {
+    "id": "china-dingjunshan-film",
+    "title": "中国电影《定军山》拍摄",
+    "startYear": 1905,
+    "type": "event",
+    "category": "culture",
+    "summary": "《定军山》拍摄，常被视为中国电影史的开端。"
+  },
+  {
+    "id": "china-march-volunteers-composed",
+    "title": "《义勇军进行曲》创作",
+    "startYear": 1935,
+    "type": "event",
+    "category": "culture",
+    "summary": "田汉作词、聂耳作曲的《义勇军进行曲》问世，后来成为中华人民共和国国歌。"
+  },
+  {
+    "id": "china-white-haired-girl-premiere",
+    "title": "歌剧《白毛女》首演",
+    "startYear": 1945,
+    "type": "event",
+    "category": "culture",
+    "summary": "《白毛女》在延安首演，成为中国现代文艺史上的代表作品。"
+  },
+  {
+    "id": "china-artemisinin-discovery",
+    "title": "青蒿素发现",
+    "startYear": 1972,
+    "type": "event",
+    "category": "technology",
+    "summary": "屠呦呦团队从青蒿中发现抗疟有效成分青蒿素，后来产生全球医学影响。"
+  },
+  {
+    "id": "china-womens-volleyball-world-cup",
+    "title": "中国女排首次世界杯夺冠",
+    "startYear": 1981,
+    "type": "event",
+    "category": "culture",
+    "summary": "中国女排首次获得世界杯冠军，成为改革开放初期广受关注的体育记忆。"
+  },
+  {
+    "id": "china-cctv-spring-festival-gala",
+    "title": "首届央视春晚播出",
+    "startYear": 1983,
+    "type": "event",
+    "category": "culture",
+    "summary": "中央电视台春节联欢晚会首次播出，逐渐成为春节大众文化记忆。"
+  },
+  {
+    "id": "china-first-olympic-gold",
+    "title": "许海峰获中国首枚奥运金牌",
+    "startYear": 1984,
+    "type": "event",
+    "category": "culture",
+    "summary": "许海峰在洛杉矶奥运会获得射击金牌，实现中国奥运金牌零的突破。"
+  },
+  {
+    "id": "china-change-1",
+    "title": "嫦娥一号发射",
+    "startYear": 2007,
+    "type": "event",
+    "category": "technology",
+    "summary": "嫦娥一号发射，开启中国探月工程。"
+  },
+  {
+    "id": "china-yao-ming-nba",
+    "title": "姚明进入NBA",
+    "startYear": 2002,
+    "type": "event",
+    "category": "culture",
+    "summary": "姚明以状元身份进入NBA，成为中国体育国际化的标志性人物。"
+  },
+  {
+    "id": "china-football-world-cup",
+    "title": "中国男足首次参加世界杯",
+    "startYear": 2002,
+    "type": "event",
+    "category": "culture",
+    "summary": "中国男足首次进入世界杯决赛圈，是中国足球大众记忆中的重要节点。"
+  },
+  {
+    "id": "china-tu-youyou-nobel",
+    "title": "屠呦呦获诺贝尔奖",
+    "startYear": 2015,
+    "type": "event",
+    "category": "technology",
+    "summary": "屠呦呦因青蒿素研究获得诺贝尔生理学或医学奖。"
+  },
+  {
+    "id": "china-wandering-earth-release",
+    "title": "电影《流浪地球》上映",
+    "startYear": 2019,
+    "type": "event",
+    "category": "culture",
+    "summary": "《流浪地球》上映，引发大众对中国科幻电影工业化的广泛讨论。"
+  },
+  {
+    "id": "china-haiguo-tuzhi-published",
+    "title": "《海国图志》刊行",
+    "startYear": 1843,
+    "type": "event",
+    "category": "culture",
+    "summary": "魏源编成《海国图志》，提出“师夷长技以制夷”，成为近代中国了解世界的重要著作。"
+  },
+  {
+    "id": "china-jintian-uprising",
+    "title": "金田起义",
+    "startYear": 1851,
+    "type": "event",
+    "category": "war",
+    "summary": "洪秀全等在广西金田发动起义，太平天国运动由此展开。"
+  },
+  {
+    "id": "china-tongwen-guan-founded",
+    "title": "京师同文馆设立",
+    "startYear": 1862,
+    "type": "event",
+    "category": "culture",
+    "summary": "清政府设立京师同文馆，培养外语和近代外交人才。"
+  },
+  {
+    "id": "china-jiangnan-arsenal-founded",
+    "title": "江南制造总局设立",
+    "startYear": 1865,
+    "type": "event",
+    "category": "technology",
+    "summary": "江南制造总局在上海设立，是洋务运动中重要的近代军事工业机构。"
+  },
+  {
+    "id": "china-foochow-arsenal-founded",
+    "title": "福州船政局设立",
+    "startYear": 1866,
+    "type": "event",
+    "category": "technology",
+    "summary": "福州船政局创办，推动近代造船、海军教育和工程技术发展。"
+  },
+  {
+    "id": "china-china-merchants-steam-navigation",
+    "title": "轮船招商局创办",
+    "startYear": 1872,
+    "type": "event",
+    "category": "economy",
+    "summary": "轮船招商局创办，是洋务派兴办近代航运企业的重要尝试。"
+  },
+  {
+    "id": "china-kaiping-mines-founded",
+    "title": "开平矿务局创办",
+    "startYear": 1878,
+    "type": "event",
+    "category": "economy",
+    "summary": "开平矿务局创办，代表晚清近代煤矿和工业企业的发展。"
+  },
+  {
+    "id": "china-sino-french-war",
+    "title": "中法战争",
+    "startYear": 1883,
+    "endYear": 1885,
+    "type": "event",
+    "category": "war",
+    "summary": "清政府与法国围绕越南宗主权和边疆秩序爆发战争。"
+  },
+  {
+    "id": "china-taiwan-province",
+    "title": "台湾建省",
+    "startYear": 1885,
+    "type": "event",
+    "category": "politics",
+    "summary": "清政府正式设台湾省，强化东南海防与地方治理。"
+  },
+  {
+    "id": "china-gongche-shangshu",
+    "title": "公车上书",
+    "startYear": 1895,
+    "type": "event",
+    "category": "politics",
+    "summary": "康有为、梁启超等发动公车上书，推动维新思潮进入政治舞台。"
+  },
+  {
+    "id": "china-treaty-shimonoseki",
+    "title": "《马关条约》签订",
+    "startYear": 1895,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "甲午战争后清政府与日本签订《马关条约》，中国近代民族危机进一步加深。"
+  },
+  {
+    "id": "china-commercial-press-founded",
+    "title": "商务印书馆创办",
+    "startYear": 1897,
+    "type": "event",
+    "category": "culture",
+    "summary": "商务印书馆创办，成为近现代出版、教育和知识传播的重要机构。"
+  },
+  {
+    "id": "china-boxer-protocol",
+    "title": "《辛丑条约》签订",
+    "startYear": 1901,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "八国联军侵华后清政府签订《辛丑条约》，赔款与驻兵条款加深半殖民地化危机。"
+  },
+  {
+    "id": "china-tongmenghui-founded",
+    "title": "中国同盟会成立",
+    "startYear": 1905,
+    "type": "event",
+    "category": "revolution",
+    "summary": "孙中山等在东京成立中国同盟会，推动资产阶级革命力量整合。"
+  },
+  {
+    "id": "china-provisional-constitution",
+    "title": "《临时约法》公布",
+    "startYear": 1912,
+    "type": "event",
+    "category": "politics",
+    "summary": "南京临时政府公布《中华民国临时约法》，确立近代共和宪政框架。"
+  },
+  {
+    "id": "china-zhonghua-book-company-founded",
+    "title": "中华书局创办",
+    "startYear": 1912,
+    "type": "event",
+    "category": "culture",
+    "summary": "中华书局创办，参与近现代教材、古籍整理和学术出版。"
+  },
+  {
+    "id": "china-second-revolution",
+    "title": "二次革命",
+    "startYear": 1913,
+    "type": "event",
+    "category": "revolution",
+    "summary": "国民党部分力量发动反袁斗争，民初共和政治危机加深。"
+  },
+  {
+    "id": "china-national-protection-war",
+    "title": "护国战争",
+    "startYear": 1915,
+    "endYear": 1916,
+    "type": "event",
+    "category": "war",
+    "summary": "蔡锷等发起反对袁世凯称帝的战争，最终迫使帝制取消。"
+  },
+  {
+    "id": "china-whampoa-military-academy",
+    "title": "黄埔军校创办",
+    "startYear": 1924,
+    "type": "event",
+    "category": "politics",
+    "summary": "黄埔军校在广州创办，培养了大批近现代军事政治人物。"
+  },
+  {
+    "id": "china-may-thirtieth-movement",
+    "title": "五卅运动",
+    "startYear": 1925,
+    "type": "event",
+    "category": "revolution",
+    "summary": "上海五卅惨案引发全国性反帝运动，推动工人和学生运动发展。"
+  },
+  {
+    "id": "china-april-12-incident",
+    "title": "四一二政变",
+    "startYear": 1927,
+    "type": "event",
+    "category": "politics",
+    "summary": "蒋介石在上海发动清党，国共合作破裂，国内政治格局急剧变化。"
+  },
+  {
+    "id": "china-jinggangshan-meeting",
+    "title": "井冈山会师",
+    "startYear": 1928,
+    "type": "event",
+    "category": "revolution",
+    "summary": "朱德、陈毅部队与毛泽东领导的部队会师，井冈山根据地力量壮大。"
+  },
+  {
+    "id": "china-december-ninth-movement",
+    "title": "一二·九运动",
+    "startYear": 1935,
+    "type": "event",
+    "category": "society",
+    "summary": "北平学生发动抗日救亡运动，推动全国抗日情绪高涨。"
+  },
+  {
+    "id": "china-pingxingguan-victory",
+    "title": "平型关大捷",
+    "startYear": 1937,
+    "type": "event",
+    "category": "war",
+    "summary": "八路军取得平型关伏击战胜利，是全面抗战初期的重要战斗。"
+  },
+  {
+    "id": "china-taierzhuang-victory",
+    "title": "台儿庄大捷",
+    "startYear": 1938,
+    "type": "event",
+    "category": "war",
+    "summary": "中国军队在台儿庄取得重要胜利，鼓舞抗战士气。"
+  },
+  {
+    "id": "china-ccp-seventh-congress",
+    "title": "中共七大",
+    "startYear": 1945,
+    "type": "event",
+    "category": "politics",
+    "summary": "中国共产党第七次全国代表大会在延安召开，确立战后政治路线和组织基础。"
+  },
+  {
+    "id": "china-chongqing-negotiations",
+    "title": "重庆谈判",
+    "startYear": 1945,
+    "type": "event",
+    "category": "politics",
+    "summary": "抗战胜利后国共双方在重庆谈判，围绕和平建国与政治安排展开交涉。"
+  },
+  {
+    "id": "china-three-campaigns",
+    "title": "三大战役",
+    "startYear": 1948,
+    "endYear": 1949,
+    "type": "event",
+    "category": "war",
+    "summary": "辽沈、淮海、平津三大战役基本决定解放战争走向。"
+  },
+  {
+    "id": "china-yangtze-crossing-campaign",
+    "title": "渡江战役",
+    "startYear": 1949,
+    "type": "event",
+    "category": "war",
+    "summary": "人民解放军发起渡江战役，南京国民政府统治终结。"
+  },
+  {
+    "id": "china-first-cppcc",
+    "title": "中国人民政治协商会议第一届全体会议",
+    "startYear": 1949,
+    "type": "event",
+    "category": "politics",
+    "summary": "第一届政协全体会议召开，通过共同纲领，筹备中华人民共和国成立。"
+  },
+  {
+    "id": "china-tibet-peaceful-liberation",
+    "title": "西藏和平解放",
+    "startYear": 1951,
+    "type": "event",
+    "category": "politics",
+    "summary": "《十七条协议》签订，西藏实现和平解放。"
+  },
+  {
+    "id": "china-socialist-transformation",
+    "title": "三大改造",
+    "startYear": 1953,
+    "endYear": 1956,
+    "type": "event",
+    "category": "economy",
+    "summary": "对农业、手工业和资本主义工商业的社会主义改造基本完成。"
+  },
+  {
+    "id": "china-bandung-conference",
+    "title": "万隆会议",
+    "startYear": 1955,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "周恩来率团参加万隆会议，提出求同存异，推动亚非国际交往。"
+  },
+  {
+    "id": "china-synthetic-bovine-insulin",
+    "title": "人工合成牛胰岛素",
+    "startYear": 1965,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国科学家完成结晶牛胰岛素人工全合成，是生命科学史上的重要成果。"
+  },
+  {
+    "id": "china-us-diplomatic-relations",
+    "title": "中美建交",
+    "startYear": 1979,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "中华人民共和国与美国正式建立外交关系，国际格局和中国对外开放进入新阶段。"
+  },
+  {
+    "id": "china-pudong-opening",
+    "title": "浦东开发开放",
+    "startYear": 1990,
+    "type": "event",
+    "category": "economy",
+    "summary": "上海浦东开发开放启动，成为中国改革开放和城市现代化的重要标志。"
+  },
+  {
+    "id": "china-deng-southern-tour",
+    "title": "邓小平南方谈话",
+    "startYear": 1992,
+    "type": "event",
+    "category": "politics",
+    "summary": "邓小平南方谈话推动改革开放继续深化，并影响社会主义市场经济目标确立。"
+  },
+  {
+    "id": "china-manned-space-program-start",
+    "title": "中国载人航天工程立项",
+    "startYear": 1992,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国载人航天工程正式立项，为后来的神舟飞船和空间站建设奠定基础。"
+  },
+  {
+    "id": "china-internet-connection",
+    "title": "中国全功能接入互联网",
+    "startYear": 1994,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国实现与国际互联网的全功能连接，信息化进程进入新阶段。"
+  },
+  {
+    "id": "china-1998-flood",
+    "title": "1998年抗洪",
+    "startYear": 1998,
+    "type": "event",
+    "category": "society",
+    "summary": "长江、嫩江、松花江流域发生严重洪水，全国展开大规模抗洪救灾。"
+  },
+  {
+    "id": "china-western-development",
+    "title": "西部大开发战略启动",
+    "startYear": 1999,
+    "type": "event",
+    "category": "economy",
+    "summary": "西部大开发战略启动，推动基础设施建设、生态保护和区域协调发展。"
+  },
+  {
+    "id": "china-sars",
+    "title": "抗击非典",
+    "startYear": 2003,
+    "type": "event",
+    "category": "society",
+    "summary": "中国经历严重急性呼吸综合征疫情，公共卫生体系建设受到高度重视。"
+  },
+  {
+    "id": "china-sunzi-bingfa-composed",
+    "title": "《孙子兵法》约成书",
+    "startYear": -500,
+    "type": "event",
+    "category": "culture",
+    "summary": "《孙子兵法》约成书于春秋末至战国初，是中国古代军事思想的代表经典。"
+  },
+  {
+    "id": "china-mozi-born",
+    "title": "墨子约出生",
+    "startYear": -470,
+    "type": "event",
+    "category": "culture",
+    "summary": "墨子约生于春秋战国之际，墨家主张兼爱、非攻、尚贤，对先秦思想竞争影响很大。"
+  },
+  {
+    "id": "china-tian-clan-replaces-qi",
+    "title": "田氏代齐",
+    "startYear": -386,
+    "type": "event",
+    "category": "politics",
+    "summary": "周安王正式承认田和为齐侯，齐国由姜姓转为田氏统治。"
+  },
+  {
+    "id": "china-zhuangzi-born",
+    "title": "庄子约出生",
+    "startYear": -369,
+    "type": "event",
+    "category": "culture",
+    "summary": "庄子约生于战国时期，其思想和文风成为道家传统的重要高峰。"
+  },
+  {
+    "id": "china-mencius-dies",
+    "title": "孟子约去世",
+    "startYear": -289,
+    "type": "event",
+    "category": "culture",
+    "summary": "孟子约于战国中期去世，后世将其思想视为儒家正统的重要组成。"
+  },
+  {
+    "id": "china-han-feizi-born",
+    "title": "韩非子约出生",
+    "startYear": -280,
+    "type": "event",
+    "category": "culture",
+    "summary": "韩非约生于战国末期，其法家思想对秦制和后世国家治理观念影响深远。"
+  },
+  {
+    "id": "china-xiang-yu-born",
+    "title": "项羽出生",
+    "startYear": -232,
+    "type": "event",
+    "category": "war",
+    "summary": "项羽出生，后来成为秦末楚汉战争中的关键人物。"
+  },
+  {
+    "id": "china-liu-bang-born",
+    "title": "刘邦出生",
+    "startYear": -256,
+    "type": "event",
+    "category": "politics",
+    "summary": "刘邦出生，后建立汉朝，是西汉开国皇帝。"
+  },
+  {
+    "id": "china-liu-bang-dies",
+    "title": "汉高祖去世",
+    "startYear": -195,
+    "type": "event",
+    "category": "politics",
+    "summary": "汉高祖刘邦去世，西汉初年政治进入吕后和惠帝时期。"
+  },
+  {
+    "id": "china-xiang-yu-dies",
+    "title": "项羽乌江自刎",
+    "startYear": -202,
+    "type": "event",
+    "category": "war",
+    "summary": "垓下战败后项羽乌江自刎，楚汉战争以刘邦胜利告终。"
+  },
+  {
+    "id": "china-emperor-wen-han-dies",
+    "title": "汉文帝去世",
+    "startYear": -157,
+    "type": "event",
+    "category": "politics",
+    "summary": "汉文帝去世，文景之治继续影响西汉前期的轻徭薄赋政策。"
+  },
+  {
+    "id": "china-zhang-zhongjing-born",
+    "title": "张仲景约出生",
+    "startYear": 150,
+    "type": "event",
+    "category": "technology",
+    "summary": "张仲景约生于东汉末年，后来撰写《伤寒杂病论》，被尊为医圣。"
+  },
+  {
+    "id": "china-shanghan-zabinglun-composed",
+    "title": "《伤寒杂病论》约成书",
+    "startYear": 210,
+    "type": "event",
+    "category": "technology",
+    "summary": "张仲景《伤寒杂病论》约成书，对中医临床辨证论治传统影响深远。"
+  },
+  {
+    "id": "china-hua-tuo-dies",
+    "title": "华佗去世",
+    "startYear": 208,
+    "type": "event",
+    "category": "technology",
+    "summary": "华佗约于此时去世，后世常将其视为外科和医学技艺的象征人物。"
+  },
+  {
+    "id": "china-wang-chong-lunheng",
+    "title": "王充《论衡》约成书",
+    "startYear": 80,
+    "type": "event",
+    "category": "culture",
+    "summary": "王充《论衡》约成书，体现东汉思想中的理性批判和自然观。"
+  },
+  {
+    "id": "china-faxian-journey",
+    "title": "法显西行求法",
+    "startYear": 399,
+    "endYear": 412,
+    "type": "event",
+    "category": "culture",
+    "summary": "东晋僧人法显赴印度等地求法，并留下《佛国记》。"
+  },
+  {
+    "id": "china-wenxindiaolong-composed",
+    "title": "《文心雕龙》约成书",
+    "startYear": 501,
+    "type": "event",
+    "category": "culture",
+    "summary": "刘勰《文心雕龙》约成书，是中国古代文学理论的重要经典。"
+  },
+  {
+    "id": "china-jianzhen-japan",
+    "title": "鉴真东渡日本",
+    "startYear": 753,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "鉴真抵达日本，推动佛教戒律、医学、建筑和文化交流。"
+  },
+  {
+    "id": "china-han-yu-born",
+    "title": "韩愈出生",
+    "startYear": 768,
+    "type": "event",
+    "category": "culture",
+    "summary": "韩愈出生，后来成为唐宋古文运动的重要开创者。"
+  },
+  {
+    "id": "china-liu-zongyuan-born",
+    "title": "柳宗元出生",
+    "startYear": 773,
+    "type": "event",
+    "category": "culture",
+    "summary": "柳宗元出生，后成为唐代散文和山水游记的重要作家。"
+  },
+  {
+    "id": "china-han-yu-dies",
+    "title": "韩愈去世",
+    "startYear": 824,
+    "type": "event",
+    "category": "culture",
+    "summary": "韩愈去世，其古文理论和文章风格影响宋代以后文统观念。"
+  },
+  {
+    "id": "china-liu-zongyuan-dies",
+    "title": "柳宗元去世",
+    "startYear": 819,
+    "type": "event",
+    "category": "culture",
+    "summary": "柳宗元去世，其寓言、论说和山水记在古文传统中地位重要。"
+  },
+  {
+    "id": "china-sima-guang-born",
+    "title": "司马光出生",
+    "startYear": 1019,
+    "type": "event",
+    "category": "culture",
+    "summary": "司马光出生，后来主持编纂《资治通鉴》。"
+  },
+  {
+    "id": "china-zizhi-tongjian-completed",
+    "title": "《资治通鉴》成书",
+    "startYear": 1084,
+    "type": "event",
+    "category": "culture",
+    "summary": "司马光主持编成《资治通鉴》，成为中国编年体通史的代表巨著。"
+  },
+  {
+    "id": "china-guan-hanqing-born",
+    "title": "关汉卿约出生",
+    "startYear": 1220,
+    "type": "event",
+    "category": "culture",
+    "summary": "关汉卿约生于金元之际，后来成为元杂剧的重要代表作家。"
+  },
+  {
+    "id": "china-doueyuan-composed",
+    "title": "《窦娥冤》约作",
+    "startYear": 1290,
+    "type": "event",
+    "category": "culture",
+    "summary": "关汉卿《窦娥冤》约作于元代，是中国戏曲史上的经典悲剧。"
+  },
+  {
+    "id": "china-wang-yangming-born",
+    "title": "王阳明出生",
+    "startYear": 1472,
+    "type": "event",
+    "category": "culture",
+    "summary": "王阳明出生，后来创立心学体系，影响明清思想和东亚儒学。"
+  },
+  {
+    "id": "china-longchang-enlightenment",
+    "title": "龙场悟道",
+    "startYear": 1508,
+    "type": "event",
+    "category": "culture",
+    "summary": "王阳明在贵州龙场悟道，心学思想由此形成关键转折。"
+  },
+  {
+    "id": "china-li-shizhen-born",
+    "title": "李时珍出生",
+    "startYear": 1518,
+    "type": "event",
+    "category": "technology",
+    "summary": "李时珍出生，后来编纂《本草纲目》。"
+  },
+  {
+    "id": "china-xu-xiake-born",
+    "title": "徐霞客出生",
+    "startYear": 1587,
+    "type": "event",
+    "category": "culture",
+    "summary": "徐霞客出生，后以长期旅行和地理观察留下《徐霞客游记》。"
+  },
+  {
+    "id": "china-xu-xiake-travels",
+    "title": "徐霞客长期游历",
+    "startYear": 1607,
+    "endYear": 1640,
+    "type": "event",
+    "category": "culture",
+    "summary": "徐霞客多年考察山川地貌，记录旅行和地理观察，展现晚明知识人的实地探索精神。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-liaozhai-published",
+    "title": "《聊斋志异》约成书",
+    "startYear": 1679,
+    "type": "event",
+    "category": "culture",
+    "summary": "蒲松龄《聊斋志异》约于清初基本成书，成为文言短篇小说经典。"
+  },
+  {
+    "id": "china-rulin-waishi-composed",
+    "title": "《儒林外史》约成书",
+    "startYear": 1750,
+    "type": "event",
+    "category": "culture",
+    "summary": "吴敬梓《儒林外史》约成书，讽刺科举士林生态，是清代小说名作。"
+  },
+  {
+    "id": "china-gu-yanwu-born",
+    "title": "顾炎武出生",
+    "startYear": 1613,
+    "type": "event",
+    "category": "culture",
+    "summary": "顾炎武出生，明清之际思想家，强调经世致用和考据学风。"
+  },
+  {
+    "id": "china-huang-zongxi-born",
+    "title": "黄宗羲出生",
+    "startYear": 1610,
+    "type": "event",
+    "category": "culture",
+    "summary": "黄宗羲出生，其政治思想和史学著作在明清思想史中地位重要。"
+  },
+  {
+    "id": "china-mingyi-daifanglu",
+    "title": "《明夷待访录》约成书",
+    "startYear": 1663,
+    "type": "event",
+    "category": "culture",
+    "summary": "黄宗羲《明夷待访录》约成书，对君主专制和制度弊端提出批判。"
+  },
+  {
+    "id": "china-chen-du-xiu-new-youth",
+    "title": "《青年杂志》创刊",
+    "startYear": 1915,
+    "type": "event",
+    "category": "culture",
+    "summary": "陈独秀在上海创办《青年杂志》，后改名《新青年》，成为新文化运动重要阵地。"
+  },
+  {
+    "id": "china-lu-xun-born",
+    "title": "鲁迅出生",
+    "startYear": 1881,
+    "type": "event",
+    "category": "culture",
+    "summary": "鲁迅出生，后来成为中国现代文学的代表作家。"
+  },
+  {
+    "id": "china-diary-madman-published",
+    "title": "鲁迅《狂人日记》发表",
+    "startYear": 1918,
+    "type": "event",
+    "category": "culture",
+    "summary": "鲁迅在《新青年》发表《狂人日记》，被视为中国现代白话小说的重要开端。"
+  },
+  {
+    "id": "china-aq-zhengzhuan-published",
+    "title": "鲁迅《阿Q正传》发表",
+    "startYear": 1921,
+    "type": "event",
+    "category": "culture",
+    "summary": "《阿Q正传》开始连载，成为中国现代文学中极具影响力的小说。"
+  },
+  {
+    "id": "china-lu-xun-dies",
+    "title": "鲁迅去世",
+    "startYear": 1936,
+    "type": "event",
+    "category": "culture",
+    "summary": "鲁迅去世，其杂文、小说和思想形象持续影响现代中国文化。"
+  },
+  {
+    "id": "china-mao-dun-zishi",
+    "title": "茅盾《子夜》出版",
+    "startYear": 1933,
+    "type": "event",
+    "category": "culture",
+    "summary": "茅盾长篇小说《子夜》出版，描写近代都市资本与社会矛盾。"
+  },
+  {
+    "id": "china-ba-jin-family",
+    "title": "巴金《家》出版",
+    "startYear": 1933,
+    "type": "event",
+    "category": "culture",
+    "summary": "巴金小说《家》出版，成为现代文学中批判封建家庭制度的代表作品。"
+  },
+  {
+    "id": "china-qian-xuesen-return",
+    "title": "钱学森回国",
+    "startYear": 1955,
+    "type": "event",
+    "category": "technology",
+    "summary": "钱学森回到中国，后来参与推动导弹、航天等科技事业发展。"
+  },
+  {
+    "id": "china-863-program",
+    "title": "863计划启动",
+    "startYear": 1986,
+    "type": "event",
+    "category": "technology",
+    "summary": "国家高技术研究发展计划启动，推动信息、生物、航天等高技术领域发展。"
+  },
+  {
+    "id": "china-211-project",
+    "title": "211工程启动",
+    "startYear": 1995,
+    "type": "event",
+    "category": "culture",
+    "summary": "211工程启动，推动一批高校和重点学科建设。"
+  },
+  {
+    "id": "china-985-project",
+    "title": "985工程启动",
+    "startYear": 1998,
+    "type": "event",
+    "category": "culture",
+    "summary": "985工程启动，推动中国高水平大学建设。"
+  },
+  {
+    "id": "china-moyan-nobel",
+    "title": "莫言获诺贝尔文学奖",
+    "startYear": 2012,
+    "type": "event",
+    "category": "culture",
+    "summary": "莫言获得诺贝尔文学奖，成为中国当代文学进入全球视野的重要节点。"
+  },
+  {
+    "id": "china-covid-19-response",
+    "title": "抗击新冠疫情",
+    "startYear": 2020,
+    "endYear": 2022,
+    "type": "event",
+    "category": "society",
+    "summary": "新冠疫情暴发后，中国经历大规模公共卫生应对和社会治理考验。"
+  },
+  {
+    "id": "china-wang-zhaojun-heqin",
+    "title": "昭君出塞",
+    "startYear": -33,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "王昭君和亲匈奴，汉匈关系进入相对稳定阶段。"
+  },
+  {
+    "id": "china-sima-qian-castration",
+    "title": "司马迁受宫刑",
+    "startYear": -99,
+    "type": "event",
+    "category": "culture",
+    "summary": "李陵之祸后司马迁受宫刑，后继续完成《史记》。"
+  },
+  {
+    "id": "china-wang-xizhi-born",
+    "title": "王羲之出生",
+    "startYear": 303,
+    "type": "event",
+    "category": "culture",
+    "summary": "王羲之出生，后被尊为“书圣”。"
+  },
+  {
+    "id": "china-wang-xizhi-dies",
+    "title": "王羲之去世",
+    "startYear": 361,
+    "type": "event",
+    "category": "culture",
+    "summary": "王羲之去世，其书法对后世影响深远。"
+  },
+  {
+    "id": "china-song-ci-xiyuan-jilu",
+    "title": "《洗冤集录》成书",
+    "startYear": 1247,
+    "type": "event",
+    "category": "technology",
+    "summary": "宋慈《洗冤集录》成书，是法医学史上的重要文献。"
+  },
+  {
+    "id": "china-sanguoyanyi-published",
+    "title": "《三国演义》刊行",
+    "startYear": 1522,
+    "type": "event",
+    "category": "culture",
+    "summary": "《三国演义》在明代刊行，成为中国古典章回小说代表作品。"
+  },
+  {
+    "id": "china-shuihuzhuan-published",
+    "title": "《水浒传》刊行",
+    "startYear": 1589,
+    "type": "event",
+    "category": "culture",
+    "summary": "《水浒传》在明代广泛传播，梁山叙事成为大众文化经典。"
+  },
+  {
+    "id": "china-li-shizhen-dies",
+    "title": "李时珍去世",
+    "startYear": 1593,
+    "type": "event",
+    "category": "technology",
+    "summary": "李时珍去世，其《本草纲目》持续影响中医药学传统。"
+  },
+  {
+    "id": "china-xu-guangqi-dies",
+    "title": "徐光启去世",
+    "startYear": 1633,
+    "type": "event",
+    "category": "technology",
+    "summary": "徐光启去世，其在数学、农学和中西科学交流中的贡献影响深远。"
+  },
+  {
+    "id": "china-kangxi-zidian-published",
+    "title": "《康熙字典》成书",
+    "startYear": 1716,
+    "type": "event",
+    "category": "culture",
+    "summary": "《康熙字典》成书，成为清代以来汉字规范和检索的重要工具书。"
+  },
+  {
+    "id": "china-jinghua-railway-opened",
+    "title": "京汉铁路全线贯通",
+    "startYear": 1906,
+    "type": "event",
+    "category": "technology",
+    "summary": "京汉铁路全线贯通，推动近代中国南北交通联系。"
+  },
+  {
+    "id": "china-jinghan-railway-strike",
+    "title": "京汉铁路工人大罢工",
+    "startYear": 1923,
+    "type": "event",
+    "category": "society",
+    "summary": "京汉铁路工人大罢工是中国早期工人运动的重要事件。"
+  },
+  {
+    "id": "china-yanan-rectification",
+    "title": "延安整风运动",
+    "startYear": 1942,
+    "endYear": 1945,
+    "type": "event",
+    "category": "politics",
+    "summary": "延安整风推动党内思想与组织建设，对后续政治路线形成影响。"
+  },
+  {
+    "id": "china-renminbi-issued",
+    "title": "人民币发行",
+    "startYear": 1948,
+    "type": "event",
+    "category": "economy",
+    "summary": "中国人民银行成立并发行人民币，现代国家货币体系逐步确立。"
+  },
+  {
+    "id": "china-peoples-daily-founded",
+    "title": "《人民日报》创刊",
+    "startYear": 1948,
+    "type": "event",
+    "category": "culture",
+    "summary": "《人民日报》创刊，成为新中国重要新闻媒体之一。"
+  },
+  {
+    "id": "china-first-npc",
+    "title": "第一届全国人民代表大会召开",
+    "startYear": 1954,
+    "type": "event",
+    "category": "politics",
+    "summary": "第一届全国人大召开，中华人民共和国国家机构体系进一步制度化。"
+  },
+  {
+    "id": "china-lei-feng-dies",
+    "title": "雷锋牺牲",
+    "startYear": 1962,
+    "type": "event",
+    "category": "society",
+    "summary": "雷锋因公牺牲，其事迹在后续社会文化记忆中影响广泛。"
+  },
+  {
+    "id": "china-constitution-1982",
+    "title": "1982年宪法公布施行",
+    "startYear": 1982,
+    "type": "event",
+    "category": "politics",
+    "summary": "1982年宪法公布施行，成为改革开放以来国家法治建设的重要基础。"
+  },
+  {
+    "id": "china-wenchuan-earthquake",
+    "title": "汶川地震",
+    "startYear": 2008,
+    "type": "event",
+    "category": "society",
+    "summary": "四川汶川发生特大地震，全国展开大规模救援与灾后重建。"
+  },
+  {
+    "id": "china-change-4-farside",
+    "title": "嫦娥四号月背着陆",
+    "startYear": 2019,
+    "type": "event",
+    "category": "technology",
+    "summary": "嫦娥四号实现人类探测器首次月球背面软着陆。"
+  },
+  {
+    "id": "china-5g-commercial-license",
+    "title": "5G商用牌照发放",
+    "startYear": 2019,
+    "type": "event",
+    "category": "technology",
+    "summary": "中国向运营商发放5G商用牌照，移动通信进入新一代网络阶段。"
+  },
+  {
+    "id": "china-zhurong-mars-rover",
+    "title": "祝融号火星车着陆火星",
+    "startYear": 2021,
+    "type": "event",
+    "category": "technology",
+    "summary": "天问一号任务中的祝融号火星车成功着陆并开展巡视探测。"
+  },
+  {
+    "id": "china-jingshi-daxuetang-founded",
+    "title": "京师大学堂创办",
+    "startYear": 1898,
+    "type": "event",
+    "category": "culture",
+    "summary": "京师大学堂创办，是中国近代高等教育制度的重要起点之一。"
+  },
+  {
+    "id": "china-guimao-school-system",
+    "title": "癸卯学制颁布",
+    "startYear": 1904,
+    "type": "event",
+    "category": "culture",
+    "summary": "清政府颁布癸卯学制，建立较系统的新式学校教育体系。"
+  },
+  {
+    "id": "china-tsinghua-college-founded",
+    "title": "清华学堂创办",
+    "startYear": 1911,
+    "type": "event",
+    "category": "culture",
+    "summary": "清华学堂创办，后发展为清华大学，成为中国高等教育重镇。"
+  },
+  {
+    "id": "china-baihua-movement",
+    "title": "白话文运动兴起",
+    "startYear": 1917,
+    "endYear": 1921,
+    "type": "event",
+    "category": "culture",
+    "summary": "胡适、陈独秀等推动白话文运动，深刻改变现代中文写作与教育。"
+  },
+  {
+    "id": "china-chinese-soviet-republic",
+    "title": "中华苏维埃共和国成立",
+    "startYear": 1931,
+    "type": "event",
+    "category": "revolution",
+    "summary": "中央革命根据地成立中华苏维埃共和国临时中央政府。"
+  },
+  {
+    "id": "china-land-reform-law-1950",
+    "title": "《中华人民共和国土地改革法》颁布",
+    "startYear": 1950,
+    "type": "event",
+    "category": "economy",
+    "summary": "土地改革法颁布，为新中国土地制度变革提供法律框架。"
+  },
+  {
+    "id": "china-korean-war-armistice",
+    "title": "朝鲜停战协定签署",
+    "startYear": 1953,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "朝鲜停战协定签署，抗美援朝战争结束。"
+  },
+  {
+    "id": "china-first-domestic-truck",
+    "title": "第一辆解放牌汽车下线",
+    "startYear": 1956,
+    "type": "event",
+    "category": "technology",
+    "summary": "长春第一汽车制造厂生产出第一辆解放牌汽车。"
+  },
+  {
+    "id": "china-shanghai-stock-exchange",
+    "title": "上海证券交易所开业",
+    "startYear": 1990,
+    "type": "event",
+    "category": "economy",
+    "summary": "上海证券交易所开业，资本市场制度化建设进入新阶段。"
+  },
+  {
+    "id": "china-shenzhen-stock-exchange",
+    "title": "深圳证券交易所成立",
+    "startYear": 1990,
+    "type": "event",
+    "category": "economy",
+    "summary": "深圳证券交易所成立，形成沪深两大证券交易市场格局。"
+  },
+  {
+    "id": "china-three-gorges-river-closure",
+    "title": "三峡工程大江截流",
+    "startYear": 1997,
+    "type": "event",
+    "category": "technology",
+    "summary": "三峡工程实现大江截流，标志超级水利工程进入关键阶段。"
+  },
+  {
+    "id": "china-shenzhou-7-eva",
+    "title": "神舟七号完成首次太空行走",
+    "startYear": 2008,
+    "type": "event",
+    "category": "technology",
+    "summary": "神舟七号任务中航天员完成首次出舱活动。"
+  },
+  {
+    "id": "china-tiangong-1-launch",
+    "title": "天宫一号发射",
+    "startYear": 2011,
+    "type": "event",
+    "category": "technology",
+    "summary": "天宫一号目标飞行器发射，空间实验室阶段正式开启。"
+  },
+  {
+    "id": "china-jiaolong-deep-dive",
+    "title": "蛟龙号完成7000米级海试",
+    "startYear": 2012,
+    "type": "event",
+    "category": "technology",
+    "summary": "蛟龙号载人潜水器完成7000米级下潜，深海探测能力显著提升。"
+  },
+  {
+    "id": "china-beijing-stock-exchange",
+    "title": "北京证券交易所设立",
+    "startYear": 2021,
+    "type": "event",
+    "category": "economy",
+    "summary": "北京证券交易所设立，服务创新型中小企业融资发展。"
+  },
+  {
+    "id": "china-shenzhou-17-launch",
+    "title": "神舟十七号发射",
+    "startYear": 2023,
+    "type": "event",
+    "category": "technology",
+    "summary": "神舟十七号载人飞船发射并与中国空间站交会对接。"
+  },
+  {
+    "id": "china-change-6-return",
+    "title": "嫦娥六号月背采样返回",
+    "startYear": 2024,
+    "type": "event",
+    "category": "technology",
+    "summary": "嫦娥六号任务完成月球背面采样并成功返回。"
+  },
+  {
+    "id": "world-industrial-revolution",
+    "title": "工业革命",
+    "startYear": 1760,
+    "endYear": 1840,
+    "type": "event",
+    "category": "technology",
+    "summary": "工业革命推动机械化生产、能源结构和城市社会的深刻变化，重塑现代世界经济格局。"
+  },
+  {
+    "id": "world-us-declaration-independence",
+    "title": "美国《独立宣言》发表",
+    "startYear": 1776,
+    "type": "event",
+    "category": "revolution",
+    "summary": "北美殖民地宣布独立，成为近代民族国家与宪政革命史的重要节点。"
+  },
+  {
+    "id": "world-french-revolution",
+    "title": "法国大革命",
+    "startYear": 1789,
+    "endYear": 1799,
+    "type": "event",
+    "category": "revolution",
+    "summary": "法国大革命冲击欧洲旧制度，推动共和、民族主义与公民权利观念传播。"
+  },
+  {
+    "id": "world-world-war-i",
+    "title": "第一次世界大战",
+    "startYear": 1914,
+    "endYear": 1918,
+    "type": "event",
+    "category": "war",
+    "summary": "第一次世界大战波及欧洲及多地区，重构国际秩序并深刻改变20世纪政治格局。"
+  },
+  {
+    "id": "world-russian-revolution",
+    "title": "俄国十月革命",
+    "startYear": 1917,
+    "type": "event",
+    "category": "revolution",
+    "summary": "俄国十月革命建立苏维埃政权，深刻影响20世纪全球政治与意识形态对抗。"
+  },
+  {
+    "id": "world-great-depression",
+    "title": "世界经济大萧条",
+    "startYear": 1929,
+    "endYear": 1939,
+    "type": "event",
+    "category": "economy",
+    "summary": "1929年危机后全球经济长期衰退，失业、通缩和贸易收缩引发广泛社会政治震荡。"
+  },
+  {
+    "id": "world-world-war-ii",
+    "title": "第二次世界大战",
+    "startYear": 1939,
+    "endYear": 1945,
+    "type": "event",
+    "category": "war",
+    "summary": "第二次世界大战是人类历史规模最大、影响最深远的全球战争之一。"
+  },
+  {
+    "id": "world-pearl-harbor-attack",
+    "title": "日本偷袭珍珠港",
+    "startYear": 1941,
+    "type": "event",
+    "category": "war",
+    "summary": "1941年12月7日，日本海军突袭美国珍珠港，促使美国正式参战，太平洋战争全面升级。"
+  },
+  {
+    "id": "world-atomic-bombings-of-japan",
+    "title": "美国向广岛、长崎投下原子弹",
+    "startYear": 1945,
+    "type": "event",
+    "category": "war",
+    "summary": "1945年8月，美国先后向日本广岛与长崎投下原子弹，加速了日本投降与第二次世界大战结束。"
+  },
+  {
+    "id": "world-un-founded",
+    "title": "联合国成立",
+    "startYear": 1945,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "1945年10月24日联合国正式成立，成为战后国际治理与多边合作核心平台。"
+  },
+  {
+    "id": "world-cold-war",
+    "title": "冷战",
+    "startYear": 1947,
+    "endYear": 1991,
+    "type": "event",
+    "category": "politics",
+    "summary": "冷战时期美苏两大阵营在政治、军事、科技与意识形态上长期对抗。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-moon-landing-apollo11",
+    "title": "阿波罗11号登月",
+    "startYear": 1969,
+    "type": "event",
+    "category": "technology",
+    "summary": "1969年人类首次登月，标志航天技术与冷战科技竞赛达到历史高峰。"
+  },
+  {
+    "id": "world-soviet-union-dissolution",
+    "title": "苏联解体",
+    "startYear": 1991,
+    "type": "event",
+    "category": "politics",
+    "summary": "1991年苏联解体，世界政治格局由两极对抗转向新的国际秩序。"
+  },
+  {
+    "id": "world-wto-founded",
+    "title": "世界贸易组织成立",
+    "startYear": 1995,
+    "type": "event",
+    "category": "economy",
+    "summary": "世界贸易组织于1995年成立，全球贸易规则进入新的制度化阶段。"
+  },
+  {
+    "id": "world-global-financial-crisis",
+    "title": "全球金融危机",
+    "startYear": 2008,
+    "endYear": 2009,
+    "type": "event",
+    "category": "economy",
+    "summary": "2008年金融危机引发全球经济衰退，推动各国金融监管和宏观政策调整。"
+  },
+  {
+    "id": "world-paris-agreement",
+    "title": "《巴黎协定》达成",
+    "startYear": 2015,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "2015年《巴黎协定》达成，全球气候治理进入普遍参与的新阶段。"
+  },
+  {
+    "id": "world-covid19-pandemic-declared",
+    "title": "WHO宣布新冠构成全球大流行",
+    "startYear": 2020,
+    "type": "event",
+    "category": "society",
+    "summary": "2020年3月11日世卫组织宣布新冠疫情构成全球大流行，世界公共卫生与社会运行遭受系统性冲击。"
+  },
+  {
+    "id": "world-renaissance",
+    "title": "文艺复兴",
+    "startYear": 1300,
+    "endYear": 1600,
+    "type": "event",
+    "category": "culture",
+    "summary": "文艺复兴发源于意大利并扩展至欧洲，推动人文主义、艺术与科学思想的重大变革。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-protestant-reformation",
+    "title": "宗教改革",
+    "startYear": 1517,
+    "endYear": 1648,
+    "type": "event",
+    "category": "culture",
+    "summary": "马丁·路德发起宗教改革，挑战罗马教廷权威，深刻改变欧洲宗教与政治格局。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-scientific-revolution",
+    "title": "科学革命",
+    "startYear": 1543,
+    "endYear": 1687,
+    "type": "event",
+    "category": "technology",
+    "summary": "哥白尼、伽利略、牛顿等推动近代科学方法论形成，改变人类对自然世界的认知。"
+  },
+  {
+    "id": "world-age-of-discovery",
+    "title": "大航海时代",
+    "startYear": 1415,
+    "endYear": 1800,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "欧洲国家开启远洋探险与殖民扩张，全球贸易网络初步形成，世界各地区联系显著增强。"
+  },
+  {
+    "id": "world-napoleonic-wars",
+    "title": "拿破仑战争",
+    "startYear": 1803,
+    "endYear": 1815,
+    "type": "event",
+    "category": "war",
+    "summary": "拿破仑率领法国与欧洲多国长期交战，重塑欧洲政治版图与民族国家观念。"
+  },
+  {
+    "id": "world-congress-of-vienna",
+    "title": "维也纳会议",
+    "startYear": 1814,
+    "endYear": 1815,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "拿破仑战争后欧洲列强重新划分势力范围，建立维也纳体系，影响19世纪国际秩序。"
+  },
+  {
+    "id": "world-american-civil-war",
+    "title": "美国内战",
+    "startYear": 1861,
+    "endYear": 1865,
+    "type": "event",
+    "category": "war",
+    "summary": "美国南北战争维护联邦统一并废除奴隶制，对美国现代化道路产生深远影响。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-berlin-conference",
+    "title": "柏林会议",
+    "startYear": 1884,
+    "endYear": 1885,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "欧洲列强在柏林会议瓜分非洲，加速非洲殖民化进程并埋下长期边界争端。"
+  },
+  {
+    "id": "world-russian-serf-emancipation",
+    "title": "俄国废除农奴制",
+    "startYear": 1861,
+    "type": "event",
+    "category": "politics",
+    "summary": "沙皇亚历山大二世签署废除农奴制法令，是俄国近代社会改革的重要节点。"
+  },
+  {
+    "id": "world-constantinople-fall",
+    "title": "君士坦丁堡陷落",
+    "startYear": 1453,
+    "type": "event",
+    "category": "war",
+    "summary": "奥斯曼军队攻陷君士坦丁堡，拜占庭帝国灭亡，东西方交通与权力格局发生重大变化。"
+  },
+  {
+    "id": "world-mongol-empire",
+    "title": "蒙古帝国扩张",
+    "startYear": 1206,
+    "endYear": 1368,
+    "type": "event",
+    "category": "war",
+    "summary": "成吉思汗及其后继者建立横跨欧亚的庞大帝国，重塑欧亚大陆政治与贸易网络。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-black-death",
+    "title": "黑死病大流行",
+    "startYear": 1346,
+    "endYear": 1353,
+    "type": "event",
+    "category": "society",
+    "summary": "黑死病席卷欧亚，造成人口锐减并深刻影响社会经济结构与宗教观念。"
+  },
+  {
+    "id": "world-hundred-years-war",
+    "title": "英法百年战争",
+    "startYear": 1337,
+    "endYear": 1453,
+    "type": "event",
+    "category": "war",
+    "summary": "英法两国长期战争，推动民族意识觉醒与军事技术变革。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-crusades",
+    "title": "十字军东征",
+    "startYear": 1096,
+    "endYear": 1291,
+    "type": "event",
+    "category": "war",
+    "summary": "欧洲基督教国家发动多次东征，深刻影响地中海世界与东西方关系。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-islamic-golden-age",
+    "title": "伊斯兰黄金时代",
+    "startYear": 750,
+    "endYear": 1258,
+    "type": "event",
+    "category": "culture",
+    "summary": "阿拔斯王朝时期伊斯兰世界在科学、哲学、医学和数学上取得辉煌成就，影响全球知识传播。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-charlemagne-empire",
+    "title": "查理曼帝国",
+    "startYear": 800,
+    "endYear": 888,
+    "type": "event",
+    "category": "era",
+    "summary": "查理曼加冕为罗马皇帝，西欧出现统一政治实体，推动加洛林文艺复兴。"
+  },
+  {
+    "id": "world-viking-age",
+    "title": "维京时代",
+    "startYear": 793,
+    "endYear": 1066,
+    "type": "event",
+    "category": "war",
+    "summary": "斯堪的纳维亚人向外扩张与贸易，影响欧洲沿海、不列颠和东欧的政治格局。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-justinian-code",
+    "title": "《查士丁尼法典》颁布",
+    "startYear": 529,
+    "type": "event",
+    "category": "politics",
+    "summary": "东罗马帝国皇帝查士丁尼颁布法典，系统整理罗马法，影响后世大陆法系。"
+  },
+  {
+    "id": "world-fall-of-western-rome",
+    "title": "西罗马帝国灭亡",
+    "startYear": 476,
+    "type": "event",
+    "category": "politics",
+    "summary": "西罗马帝国最后一位皇帝被废黜，古代欧洲进入中世纪转型阶段。"
+  },
+  {
+    "id": "world-alexander-conquest",
+    "title": "亚历山大东征",
+    "startYear": -334,
+    "endYear": -323,
+    "type": "event",
+    "category": "war",
+    "summary": "亚历山大大帝征服波斯并远征至印度，推动希腊化时代与东西方文化交融。"
+  },
+  {
+    "id": "world-roman-republic-fall",
+    "title": "罗马共和国终结",
+    "startYear": -27,
+    "type": "event",
+    "category": "politics",
+    "summary": "屋大维获奥古斯都称号，罗马共和国转变为帝国，开启罗马帝制时代。"
+  },
+  {
+    "id": "world-punic-wars",
+    "title": "布匿战争",
+    "startYear": -264,
+    "endYear": -146,
+    "type": "event",
+    "category": "war",
+    "summary": "罗马与迦太基进行三次大战，罗马确立地中海霸权。"
+  },
+  {
+    "id": "world-persian-wars",
+    "title": "希波战争",
+    "startYear": -499,
+    "endYear": -449,
+    "type": "event",
+    "category": "war",
+    "summary": "希腊城邦与波斯帝国之间的战争，影响古希腊文明独立发展与西方历史叙事。"
+  },
+  {
+    "id": "world-egypt-unification",
+    "title": "古埃及统一",
+    "startYear": -3100,
+    "type": "event",
+    "category": "politics",
+    "summary": "上下埃及统一，法老制度确立，古埃及文明进入王朝时期。"
+  },
+  {
+    "id": "world-hammurabi-code",
+    "title": "《汉谟拉比法典》颁布",
+    "startYear": -1754,
+    "type": "event",
+    "category": "politics",
+    "summary": "古巴比伦国王汉谟拉比颁布成文法典，是早期国家法制的重要见证。"
+  },
+  {
+    "id": "world-cuneiform-writing",
+    "title": "楔形文字出现",
+    "startYear": -3200,
+    "type": "event",
+    "category": "culture",
+    "summary": "苏美尔人发明楔形文字，是人类最早的书写系统之一，推动文明记录与管理。"
+  },
+  {
+    "id": "world-pyramids-of-giza",
+    "title": "吉萨金字塔建造",
+    "startYear": -2580,
+    "endYear": -2510,
+    "type": "event",
+    "category": "technology",
+    "summary": "古埃及第四王朝在吉萨建造大金字塔，体现早期国家工程与组织能力。"
+  },
+  {
+    "id": "world-battle-of-thermopylae",
+    "title": "温泉关战役",
+    "startYear": -480,
+    "type": "event",
+    "category": "war",
+    "summary": "斯巴达国王列奥尼达率少量希腊联军阻击波斯大军，成为西方军事记忆的经典。"
+  },
+  {
+    "id": "world-plato-academy",
+    "title": "柏拉图创办学园",
+    "startYear": -387,
+    "type": "event",
+    "category": "culture",
+    "summary": "柏拉图在雅典创办学园，成为西方哲学与高等教育传统的重要源头。"
+  },
+  {
+    "id": "world-parthenon-built",
+    "title": "帕特农神庙建成",
+    "startYear": -432,
+    "type": "event",
+    "category": "culture",
+    "summary": "雅典卫城帕特农神庙建成，象征古希腊建筑与城邦文化的巅峰。"
+  },
+  {
+    "id": "world-library-of-alexandria",
+    "title": "亚历山大图书馆建立",
+    "startYear": -283,
+    "type": "event",
+    "category": "culture",
+    "summary": "托勒密王朝在亚历山大建立大型图书馆，成为古代世界知识汇集中心。"
+  },
+  {
+    "id": "world-appian-way",
+    "title": "阿庇亚大道修建",
+    "startYear": -312,
+    "type": "event",
+    "category": "technology",
+    "summary": "罗马修建阿庇亚大道，体现古代国家基础设施与军事后勤能力。"
+  },
+  {
+    "id": "world-colosseum-completed",
+    "title": "罗马斗兽场建成",
+    "startYear": 80,
+    "type": "event",
+    "category": "culture",
+    "summary": "罗马斗兽场落成，成为罗马帝国公共娱乐与建筑工程的象征。"
+  },
+  {
+    "id": "world-hagia-sophia-built",
+    "title": "圣索菲亚大教堂建成",
+    "startYear": 537,
+    "type": "event",
+    "category": "culture",
+    "summary": "查士丁尼一世主持建成圣索菲亚大教堂，代表拜占庭建筑与宗教艺术的巅峰。"
+  },
+  {
+    "id": "world-printing-press-gutenberg",
+    "title": "古腾堡发明活字印刷术",
+    "startYear": 1440,
+    "type": "event",
+    "category": "technology",
+    "summary": "古腾堡发明金属活字印刷术，大幅降低书籍成本，推动知识传播与宗教改革。"
+  },
+  {
+    "id": "world-heliocentric-theory",
+    "title": "哥白尼提出日心说",
+    "startYear": 1543,
+    "type": "event",
+    "category": "technology",
+    "summary": "哥白尼《天体运行论》出版，提出日心说模型，挑战地心宇宙观。"
+  },
+  {
+    "id": "world-telescope-galileo",
+    "title": "伽利略改进望远镜",
+    "startYear": 1609,
+    "type": "event",
+    "category": "technology",
+    "summary": "伽利略用自制望远镜观测天体，发现木星卫星和月球表面，支持日心说。"
+  },
+  {
+    "id": "world-newton-principia",
+    "title": "牛顿《自然哲学的数学原理》出版",
+    "startYear": 1687,
+    "type": "event",
+    "category": "technology",
+    "summary": "牛顿出版《原理》，建立经典力学体系，标志近代物理学形成。"
+  },
+  {
+    "id": "world-steam-engine-watt",
+    "title": "瓦特改良蒸汽机",
+    "startYear": 1769,
+    "type": "event",
+    "category": "technology",
+    "summary": "詹姆斯·瓦特获得改良蒸汽机专利，为工业革命提供核心动力。"
+  },
+  {
+    "id": "world-electric-light-bulb",
+    "title": "白炽灯泡实用化",
+    "startYear": 1879,
+    "type": "event",
+    "category": "technology",
+    "summary": "爱迪生实现白炽灯泡的实用化生产，电力照明进入日常生活。"
+  },
+  {
+    "id": "world-first-flight-wright",
+    "title": "莱特兄弟首次动力飞行",
+    "startYear": 1903,
+    "type": "event",
+    "category": "technology",
+    "summary": "莱特兄弟完成人类首次受控动力飞行，开启航空时代。"
+  },
+  {
+    "id": "world-penicillin-discovery",
+    "title": "青霉素发现",
+    "startYear": 1928,
+    "type": "event",
+    "category": "technology",
+    "summary": "弗莱明发现青霉素，开启抗生素时代，挽救无数生命。"
+  },
+  {
+    "id": "world-first-nuclear-reactor",
+    "title": "人类首个核反应堆建成",
+    "startYear": 1942,
+    "type": "event",
+    "category": "technology",
+    "summary": "费米团队在芝加哥建成首个可控核裂变反应堆，标志核能时代开始。"
+  },
+  {
+    "id": "world-first-computer-eniac",
+    "title": "ENIAC诞生",
+    "startYear": 1945,
+    "type": "event",
+    "category": "technology",
+    "summary": "美国研制出ENIAC电子计算机，开启电子计算与信息时代。"
+  },
+  {
+    "id": "world-dna-structure",
+    "title": "DNA双螺旋结构发现",
+    "startYear": 1953,
+    "type": "event",
+    "category": "technology",
+    "summary": "沃森和克里克发现DNA双螺旋结构，揭示遗传信息载体，推动分子生物学革命。"
+  },
+  {
+    "id": "world-internet-arpanet",
+    "title": "ARPANET诞生",
+    "startYear": 1969,
+    "type": "event",
+    "category": "technology",
+    "summary": "美国国防部建立ARPANET，成为现代互联网的技术前身。"
+  },
+  {
+    "id": "world-human-genome-project",
+    "title": "人类基因组计划完成",
+    "startYear": 2003,
+    "type": "event",
+    "category": "technology",
+    "summary": "人类基因组计划宣布完成，为精准医学和生命科学研究奠定基础。"
+  },
+  {
+    "id": "world-smartphone-iphone",
+    "title": "iPhone发布",
+    "startYear": 2007,
+    "type": "event",
+    "category": "technology",
+    "summary": "苹果发布iPhone，重新定义智能手机，推动移动互联网普及。"
+  },
+  {
+    "id": "world-ai-deepblue",
+    "title": "深蓝击败国际象棋世界冠军",
+    "startYear": 1997,
+    "type": "event",
+    "category": "technology",
+    "summary": "IBM深蓝超级计算机击败卡斯帕罗夫，标志人工智能在特定领域超越人类。"
+  },
+  {
+    "id": "world-hubble-telescope",
+    "title": "哈勃太空望远镜发射",
+    "startYear": 1990,
+    "type": "event",
+    "category": "technology",
+    "summary": "哈勃望远镜进入太空轨道，极大拓展人类对宇宙深空的观测能力。"
+  },
+  {
+    "id": "world-voyager-golden-record",
+    "title": "旅行者号发射",
+    "startYear": 1977,
+    "type": "event",
+    "category": "technology",
+    "summary": "旅行者1号和2号发射，携带金唱片飞向太阳系外，成为人类星际探索的象征。"
+  },
+  {
+    "id": "world-marshall-plan",
+    "title": "马歇尔计划启动",
+    "startYear": 1948,
+    "endYear": 1952,
+    "type": "event",
+    "category": "economy",
+    "summary": "美国援助西欧经济重建，推动战后欧洲复苏并巩固西方阵营。"
+  },
+  {
+    "id": "world-korean-war",
+    "title": "朝鲜战争",
+    "startYear": 1950,
+    "endYear": 1953,
+    "type": "event",
+    "category": "war",
+    "summary": "朝鲜半岛爆发战争，中美苏等多国卷入，冷战热战化的重要标志。"
+  },
+  {
+    "id": "world-cuban-missile-crisis",
+    "title": "古巴导弹危机",
+    "startYear": 1962,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "美苏在古巴核导弹问题上对峙至战争边缘，冷战最接近核冲突的一次危机。"
+  },
+  {
+    "id": "world-vietnam-war",
+    "title": "越南战争",
+    "startYear": 1955,
+    "endYear": 1975,
+    "type": "event",
+    "category": "war",
+    "summary": "美国深度介入越南内战，最终撤军，影响冷战格局与东南亚秩序。"
+  },
+  {
+    "id": "world-iranian-revolution",
+    "title": "伊朗伊斯兰革命",
+    "startYear": 1979,
+    "type": "event",
+    "category": "revolution",
+    "summary": "伊朗推翻巴列维王朝，建立伊斯兰共和国，中东地缘政治发生重大变化。"
+  },
+  {
+    "id": "world-fall-of-berlin-wall",
+    "title": "柏林墙倒塌",
+    "startYear": 1989,
+    "type": "event",
+    "category": "politics",
+    "summary": "柏林墙倒塌象征冷战终结与德国统一，欧洲政治版图重塑。"
+  },
+  {
+    "id": "world-gulf-war",
+    "title": "海湾战争",
+    "startYear": 1990,
+    "endYear": 1991,
+    "type": "event",
+    "category": "war",
+    "summary": "多国部队驱逐伊拉克出科威特，展示现代高科技战争形态。"
+  },
+  {
+    "id": "world-eu-establishment",
+    "title": "欧洲联盟成立",
+    "startYear": 1993,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "《马斯特里赫特条约》生效，欧洲联盟正式成立，推动欧洲一体化深化。"
+  },
+  {
+    "id": "world-9-11-attacks",
+    "title": "9·11恐怖袭击",
+    "startYear": 2001,
+    "type": "event",
+    "category": "war",
+    "summary": "美国遭遇大规模恐怖袭击，全球反恐战争与国际安全格局深刻变化。"
+  },
+  {
+    "id": "world-arab-spring",
+    "title": "阿拉伯之春",
+    "startYear": 2010,
+    "endYear": 2012,
+    "type": "event",
+    "category": "revolution",
+    "summary": "突尼斯、埃及等多国爆发大规模抗议，推动政权更迭并引发地区长期动荡。"
+  },
+  {
+    "id": "world-russia-ukraine-war",
+    "title": "俄乌冲突",
+    "startYear": 2022,
+    "type": "event",
+    "category": "war",
+    "summary": "俄罗斯对乌克兰发起特别军事行动，引发欧洲自二战以来最大规模战争与国际制裁。",
+    "endYear": 2026
+  },
+  {
+    "id": "world-us-slavery-abolished",
+    "title": "美国废除奴隶制",
+    "startYear": 1865,
+    "type": "event",
+    "category": "politics",
+    "summary": "美国通过宪法第十三修正案，正式废除奴隶制。"
+  },
+  {
+    "id": "world-women-suffrage-us",
+    "title": "美国妇女获得选举权",
+    "startYear": 1920,
+    "type": "event",
+    "category": "politics",
+    "summary": "美国通过宪法第十九修正案，妇女获得全国范围的选举权。"
+  },
+  {
+    "id": "world-universal-declaration-human-rights",
+    "title": "《世界人权宣言》发表",
+    "startYear": 1948,
+    "type": "event",
+    "category": "diplomacy",
+    "summary": "联合国大会通过《世界人权宣言》，奠定现代人权国际法基础。"
+  },
+  {
+    "id": "world-fall-of-apartheid",
+    "title": "南非废除种族隔离",
+    "startYear": 1994,
+    "type": "event",
+    "category": "politics",
+    "summary": "南非举行首次不分种族的全民大选，曼德拉当选总统，种族隔离制度终结。"
+  },
+  {
+    "id": "china-warring-states-mohism",
+    "title": "墨家学派兴盛",
+    "startYear": -450,
+    "endYear": -300,
+    "type": "event",
+    "category": "culture",
+    "summary": "战国时期墨家与儒家并称显学，在逻辑、军事技术和伦理思想上贡献突出。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-tang-poetry-golden-age",
+    "title": "唐诗黄金时代",
+    "startYear": 700,
+    "endYear": 800,
+    "type": "event",
+    "category": "culture",
+    "summary": "盛唐时期诗歌创作达到高峰，李白、杜甫、王维等诗人留下大量传世名篇。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-song-neo-confucianism-rise",
+    "title": "宋代理学兴起",
+    "startYear": 1000,
+    "endYear": 1200,
+    "type": "event",
+    "category": "culture",
+    "summary": "宋代儒学复兴，理学思想体系逐渐形成，深刻影响后世教育与政治伦理。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-late-qing-reform-thought",
+    "title": "晚清维新思潮",
+    "startYear": 1890,
+    "endYear": 1911,
+    "type": "event",
+    "category": "culture",
+    "summary": "甲午战争后维新、革命与立宪思潮交织，推动清末政治变革与思想转型。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-contemporary-economic-rise",
+    "title": "中国经济快速增长期",
+    "startYear": 1990,
+    "endYear": 2020,
+    "type": "event",
+    "category": "economy",
+    "summary": "改革开放后中国经济持续高速增长，制造业、基础设施和城市化水平大幅提升。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-ancient-silk-road-trade",
+    "title": "陆上丝绸之路繁荣",
+    "startYear": -130,
+    "endYear": 900,
+    "type": "event",
+    "category": "economy",
+    "summary": "汉唐时期陆上丝绸之路连接中原与中亚、西亚及地中海世界，丝绸、香料、宗教和技术沿此传播。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-maritime-silk-road-song-yuan",
+    "title": "海上丝绸之路兴盛",
+    "startYear": 900,
+    "endYear": 1500,
+    "type": "event",
+    "category": "economy",
+    "summary": "宋元至明初海上贸易网络扩展，瓷器、丝绸和香料经印度洋与东南亚广泛流通。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-early-agriculture-development",
+    "title": "中国早期农业起源",
+    "startYear": -10000,
+    "endYear": -5000,
+    "type": "event",
+    "category": "technology",
+    "summary": "黄河流域和长江流域逐步发展出粟作与稻作农业，奠定中国农耕文明基础。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-bronze-casting-peak",
+    "title": "中国青铜铸造高峰",
+    "startYear": -1500,
+    "endYear": -800,
+    "type": "event",
+    "category": "technology",
+    "summary": "商周时期青铜礼器和兵器铸造技术达到高峰，体现早期国家的宗教与政治权力。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-iron-agriculture-han",
+    "title": "汉代铁器与农业推广",
+    "startYear": -200,
+    "endYear": 200,
+    "type": "event",
+    "category": "technology",
+    "summary": "汉代铁制农具和牛耕技术广泛推广，提高农业生产力并支撑人口增长。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-urban-boom-song",
+    "title": "宋代城市经济繁荣",
+    "startYear": 960,
+    "endYear": 1279,
+    "type": "event",
+    "category": "economy",
+    "summary": "宋代坊市制度瓦解，城市商业、手工业和市民文化显著发展。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-foreign-investment-boom",
+    "title": "外资进入中国高潮",
+    "startYear": 1992,
+    "endYear": 2008,
+    "type": "event",
+    "category": "economy",
+    "summary": "南方谈话后外资大规模进入中国，推动出口导向型工业化和全球供应链整合。",
+    "rail": "global_long"
+  },
+  {
+    "id": "china-digital-economy-rise",
+    "title": "中国数字经济崛起",
+    "startYear": 2010,
+    "endYear": 2026,
+    "type": "event",
+    "category": "economy",
+    "summary": "移动互联网、电子商务和平台经济快速发展，数字经济成为中国增长新引擎。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-renaissance-art-leonardo",
+    "title": "达·芬奇创作《蒙娜丽莎》",
+    "startYear": 1503,
+    "endYear": 1519,
+    "type": "event",
+    "category": "culture",
+    "summary": "达·芬奇创作《蒙娜丽莎》等作品，代表文艺复兴艺术与人文精神的高峰。"
+  },
+  {
+    "id": "world-shakespeare-career",
+    "title": "莎士比亚戏剧创作",
+    "startYear": 1590,
+    "endYear": 1613,
+    "type": "event",
+    "category": "culture",
+    "summary": "莎士比亚创作大量戏剧与诗歌，深刻影响英语文学与世界戏剧传统。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-baroque-music-bach",
+    "title": "巴赫音乐创作高峰",
+    "startYear": 1700,
+    "endYear": 1750,
+    "type": "event",
+    "category": "culture",
+    "summary": "约翰·塞巴斯蒂安·巴赫创作大量宗教与世俗音乐，成为巴洛克音乐与西方音乐传统的基石。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-classical-music-mozart",
+    "title": "莫扎特音乐创作",
+    "startYear": 1760,
+    "endYear": 1791,
+    "type": "event",
+    "category": "culture",
+    "summary": "莫扎特创作大量交响曲、歌剧和室内乐，代表古典主义音乐的巅峰。"
+  },
+  {
+    "id": "world-romantic-music-beethoven",
+    "title": "贝多芬音乐创作",
+    "startYear": 1790,
+    "endYear": 1827,
+    "type": "event",
+    "category": "culture",
+    "summary": "贝多芬连接古典与浪漫时期，其交响曲与钢琴作品深刻影响西方音乐发展。"
+  },
+  {
+    "id": "world-impressionism-art",
+    "title": "印象派绘画兴起",
+    "startYear": 1860,
+    "endYear": 1890,
+    "type": "event",
+    "category": "culture",
+    "summary": "莫奈、雷诺阿等开创印象派，改变西方绘画对光线、色彩与瞬间感受的表现方式。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-cubism-picasso",
+    "title": "毕加索立体主义创作",
+    "startYear": 1907,
+    "endYear": 1920,
+    "type": "event",
+    "category": "culture",
+    "summary": "毕加索与布拉克开创立体主义，打破传统透视，深刻影响现代艺术走向。",
+    "rail": "global_long"
+  },
+  {
+    "id": "world-rock-and-roll",
+    "title": "摇滚乐兴起",
+    "startYear": 1950,
+    "endYear": 1950,
+    "type": "event",
+    "category": "culture",
+    "summary": "摇滚乐融合节奏布鲁斯与乡村音乐，成为战后青年文化与反叛精神的标志。"
+  },
+  {
+    "id": "china-ai-rise",
+    "title": "人工智能兴起",
+    "startYear": 2017,
+    "endYear": null,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "2017年起，人工智能技术加速发展。中国在AI领域投入巨大，百度、阿里、腾讯等企业在自然语言处理、计算机视觉等领域取得突破。2023年生成式AI爆发。"
+  },
+  {
+    "id": "china-hu-shi-died",
+    "title": "新文化运动主将胡适逝世",
+    "startYear": 1962,
+    "endYear": 1962,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "1962年，胡适在台北逝世，享年71岁。他是中国现代学术史上最重要的学者之一，在哲学、文学、史学、红学、教育学等领域都有重要贡献。他提倡自由主义思想，主张'独立之精神，自由之思想'，对20世纪中国思想界产生了深远影响。"
+  },
+  {
+    "id": "china-li-hong-zhang-died",
+    "title": "晚清名臣李鸿章逝世",
+    "startYear": 1901,
+    "endYear": 1901,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "1901年，李鸿章在北京病逝，享年78岁。他是晚清最重要的外交家和政治家之一，代表清政府签署了多项不平等条约。他是中国近代化的先驱，创办了江南制造总局、福州船政局等近代工业企业，推动了中国近代工业的发展。"
+  },
+  {
+    "id": "china-zeng-guo-fan-died",
+    "title": "晚清名臣曾国藩逝世",
+    "startYear": 1872,
+    "endYear": 1872,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "1872年，曾国藩在北京逝世，享年62岁。他是晚清最重要的政治家之一，倡导洋务运动，主张师夷长技以自强。他一生修身严谨，家训流传后世，其家书被广泛传阅，是中国传统文化中'修身齐家治国平天下'的典范人物。"
+  },
+  {
+    "id": "china-jiang-zemin-died",
+    "title": "江泽民逝世",
+    "startYear": 2022,
+    "endYear": 2022,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "2022年11月30日，江泽民在上海逝世，享年96岁。他是中国共产党和中华人民共和国的主要领导人之一，'三个代表'重要思想的创立者。他为中国改革开放和现代化建设事业、为实现中华民族伟大复兴作出了重大贡献，受到全党全军全国各族人民衷心爱戴。"
+  },
+  {
+    "id": "china-jiang-zemin-born",
+    "title": "江泽民出生",
+    "startYear": 1926,
+    "endYear": 1926,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "1926年，江泽民出生于江苏扬州。他是中国共产党和中华人民共和国的主要领导人之一，'三个代表'重要思想的创立者，全党全军全国各族人民公认的享有崇高威望的卓越领导人。他对中国特色社会主义事业的发展作出了重大贡献。"
+  },
+  {
+    "id": "china-deng-xiaoping-born",
+    "title": "邓小平出生",
+    "startYear": 1904,
+    "endYear": 1904,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "1904年，邓小平出生于四川广安县协兴场。他是中国共产党、中国人民解放军、中华人民共和国的主要缔造者之一，中国社会主义改革开放和现代化建设的总设计师，邓小平理论的主要创立者。他为中国社会主义事业的发展作出了历史性贡献。"
+  },
+  {
+    "id": "china-mao-zedong-died",
+    "title": "毛泽东逝世",
+    "startYear": 1976,
+    "endYear": 1976,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "1976年9月9日，毛泽东在北京逝世，享年83岁。他是中国共产党、中国人民解放军、中华人民共和国的主要缔造者。毛泽东是伟大的马克思主义者，无产阶级革命家、战略家和理论家。他为世界被压迫民族的解放和人类进步事业作出了重大贡献。"
+  },
+  {
+    "id": "china-mao-zedong-born",
+    "title": "毛泽东出生",
+    "startYear": 1893,
+    "endYear": 1893,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "1893年，毛泽东出生于湖南湘潭韶山冲，字润之。他是中国共产党的主要创始人之一，中华人民共和国的主要缔造者，中国共产党、中国人民解放军、中华人民共和国的主要缔造者。他为中国新民主主义革命的胜利、社会主义建设事业的开展作出了巨大贡献。"
+  },
+  {
+    "id": "china-xin-qiji-died",
+    "title": "辛弃疾逝世",
+    "startYear": 1207,
+    "endYear": 1207,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "1207年，辛弃疾病逝于铅山，享年68岁。临终前仍高呼'杀贼！杀贼！'。他是中国历史上少有的文武双全的奇才，既有收复中原的豪情壮志，又有卓越的文学成就。其词开豪放词派之宗，对南宋及后世爱国词人如刘克庄、刘辰翁等影响深远。"
+  },
+  {
+    "id": "china-li-qingzhao-died",
+    "title": "李清照逝世",
+    "startYear": 1155,
+    "endYear": 1155,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "约1155年，李清照在孤苦中离世。她前半生生活优裕，与丈夫赵明诚共同致力于金石书画的搜集整理。靖康之变后，国破家亡，她流落南方，晚年境遇凄凉。她的词作前期多写闺情和自然风光，后期则悲叹身世、感慨国破，是中国文学史上不可多得的杰出女性作家。"
+  },
+  {
+    "id": "china-zhong-pu-join-declaration",
+    "title": "中葡联合声明签署",
+    "startYear": 1987,
+    "endYear": 1987,
+    "type": "event",
+    "category": "politics",
+    "rail": "main",
+    "summary": "1987年4月13日，中葡两国政府总理在北京正式签署《中华人民共和国政府和葡萄牙共和国政府关于澳门问题的联合声明》。声明宣布：澳门地区是中国领土，中华人民共和国政府将于1999年12月20日对澳门恢复行使主权。1988年1月15日，两国交换批准书，声明正式生效。"
+  },
+  {
+    "id": "china-daxinganling-fire",
+    "title": "大兴安岭特大森林火灾",
+    "startYear": 1987,
+    "endYear": 1987,
+    "type": "event",
+    "category": "society",
+    "rail": "main",
+    "summary": "1987年5月6日至6月2日，大兴安岭发生新中国成立以来最严重的特大森林火灾。大火持续28天，火场总面积101万公顷，烧毁森林面积65万公顷，211人丧生，266人受伤。直接经济损失5亿多元，间接损失达69.13亿元。国务院发布处理决定，多名官员因官僚主义和失职被撤职。"
+  },
+  {
+    "id": "china-huawei-founded",
+    "title": "华为技术有限公司成立",
+    "startYear": 1987,
+    "endYear": 1987,
+    "type": "event",
+    "category": "economy",
+    "rail": "main",
+    "summary": "1987年9月15日，任正非以2.1万元注册资金在深圳蛇口创办华为技术有限公司。华为从代理销售电话交换机起步，逐渐发展成为全球领先的通信设备制造商和智能手机供应商，是中国最具影响力的科技企业之一。"
+  },
+  {
+    "id": "china-kfc-first-store",
+    "title": "肯德基中国第一家分店开业",
+    "startYear": 1987,
+    "endYear": 1987,
+    "type": "event",
+    "category": "economy",
+    "rail": "main",
+    "summary": "1987年11月12日，肯德基在北京前门西大街正阳市场一号开设中国大陆第一家分店。这是西方快餐连锁企业首次进入中国市场，标志着中国餐饮市场对外开放的重要里程碑。开业便引发轰动，排队吃炸鸡成为当时北京的一大时尚。"
+  },
+  {
+    "id": "china-test-tube-baby",
+    "title": "中国大陆首例试管婴儿诞生",
+    "startYear": 1988,
+    "endYear": 1988,
+    "type": "event",
+    "category": "society",
+    "rail": "main",
+    "summary": "1988年3月10日，中国大陆首例试管婴儿在北京大学第三医院成功诞生。北医三院张丽珠教授带领团队，利用体外受精技术使不孕症患者成功受孕。这是中国大陆辅助生殖技术的重要突破，标志着中国医学领域进入新的时代。"
+  },
+  {
+    "id": "china-fengyun-satellite",
+    "title": "首颗气象卫星风云一号发射成功",
+    "startYear": 1988,
+    "endYear": 1988,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1988年9月7日，我国在太原卫星发射中心用长征四号甲运载火箭，成功将第一颗气象卫星风云一号送入太阳同步轨道。中国成为世界上第三个能够独立发射太阳同步轨道卫星的国家，中国气象卫星及其应用从此进入快速发展阶段。"
+  },
+  {
+    "id": "china-hu-jia-highway",
+    "title": "沪嘉高速公路通车",
+    "startYear": 1988,
+    "endYear": 1988,
+    "type": "event",
+    "category": "economy",
+    "rail": "main",
+    "summary": "1988年10月31日，中国大陆第一条高速公路——沪嘉高速公路在上海建成通车。这条由上海市区通往嘉定、长约20.5公里的公路，将原本2小时车程缩短至半小时，实现了中国高速公路零的突破，宣告中国大陆没有高速公路的时代已经结束。"
+  },
+  {
+    "id": "world-seoul-olympics",
+    "title": "汉城奥运会",
+    "startYear": 1988,
+    "endYear": 1988,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "1988年9月17日至10月2日，第24届夏季奥林匹克运动会在韩国汉城举行。由于苏联、民主德国及东欧等国家都参加了本届奥运会，竞争激烈。中国获得5枚金牌、11枚银牌和12枚铜牌，总分数居第8位。"
+  },
+  {
+    "id": "world-galileo-freefall",
+    "title": "伽利略发现自由落体定律",
+    "startYear": 1589,
+    "endYear": 1589,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1589年，伽利略通过斜面滚球实验发现不同重量的物体以相同的恒定加速度下降，推翻了亚里士多德关于重物下落更快的错误观点。这一发现奠定了经典力学的基础，伽利略被称为'现代物理学之父'。"
+  },
+  {
+    "id": "world-kepler-laws",
+    "title": "开普勒发现行星运动三大定律",
+    "startYear": 1609,
+    "endYear": 1619,
+    "type": "event",
+    "category": "technology",
+    "rail": "global_long",
+    "summary": "1609年，开普勒发表《新天文学》，提出行星运动第一、第二定律：行星沿椭圆轨道运动，太阳位于焦点；相等时间内扫过相等面积。1619年发表第三定律：轨道周期的平方与半长轴的立方成正比。这三大定律是牛顿推导万有引力定律的基础。"
+  },
+  {
+    "id": "world-maxwell-electromagnetic",
+    "title": "麦克斯韦提出电磁理论",
+    "startYear": 1873,
+    "endYear": 1873,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1873年，詹姆斯·克拉克·麦克斯韦发表《论电和磁》，提出了电磁场方程组，统一了电、磁、光现象，预言了电磁波的存在。麦克斯韦方程组被认为是物理学中最优美的理论之一，为无线电、电视、通信等技术奠定了基础。"
+  },
+  {
+    "id": "world-mendeleev-periodic-table",
+    "title": "门捷列夫发现元素周期律",
+    "startYear": 1869,
+    "endYear": 1869,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1869年2月17日，俄国化学家德米特里·门捷列夫发表《元素的性质与其原子量的关系》，提出了化学元素周期律。他根据原子量大小将元素分类，发现元素性质呈现周期性变化，并成功预测了尚未发现的元素。元素周期表是化学最重要的基础理论之一。"
+  },
+  {
+    "id": "world-planck-quantum",
+    "title": "普朗克提出量子论",
+    "startYear": 1900,
+    "endYear": 1900,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1900年12月14日，马克斯·普朗克在德国物理学会发表《论正常光谱的能量分布定律》，提出了能量量子化的概念，宣告量子论诞生。普朗克假设能量只能以离散的能量子形式发射或吸收，这一革命性思想开辟了20世纪物理学的新纪元。"
+  },
+  {
+    "id": "world-roentgen-x-ray",
+    "title": "伦琴发现X射线",
+    "startYear": 1895,
+    "endYear": 1895,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1895年11月8日，德国物理学家威廉·伦琴发现了X射线。这一发现立即引起科学界轰动，X射线能穿透普通光线不能穿透的物质，在医学领域被广泛应用于诊断成像，伦琴因此获得首届诺贝尔物理学奖。"
+  },
+  {
+    "id": "world-curium-radium",
+    "title": "居里夫妇发现镭",
+    "startYear": 1898,
+    "endYear": 1898,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1898年，皮埃尔·居里和玛丽·居里发现了放射性元素钋和镭。玛丽·居里是第一位获得两次诺贝尔奖的科学家，她开创了放射性理论，为核物理学的发展奠定了基础。由于这一发现，居里夫妇和贝克勒尔共同获得了1903年诺贝尔物理学奖。"
+  },
+  {
+    "id": "world-einstein-special-relativity",
+    "title": "爱因斯坦发表狭义相对论",
+    "startYear": 1905,
+    "endYear": 1905,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1905年，阿尔伯特·爱因斯坦发表《论动体的电动力学》，创立了狭义相对论。狭义相对论揭示了时间和空间的本质联系，提出了光速不变原理和相对性原理，推导出著名的质能方程E=mc²，为原子能的利用提供了理论基础，是20世纪物理学最伟大的成就之一。"
+  },
+  {
+    "id": "world-einstein-general-relativity",
+    "title": "爱因斯坦发表广义相对论",
+    "startYear": 1915,
+    "endYear": 1915,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1915年，爱因斯坦建立了广义相对论，提出引力本质上是时空弯曲的几何效应。广义相对论成功解释了水星近日点进动问题，预言了光线在引力场中的弯曲，被公认为人类思想史上最伟大的成就之一。"
+  },
+  {
+    "id": "world-bose-einstein-condensate",
+    "title": "玻色-爱因斯坦凝聚态发现",
+    "startYear": 1995,
+    "endYear": 1995,
+    "type": "event",
+    "category": "technology",
+    "rail": "main",
+    "summary": "1995年，埃里克·康奈尔和卡尔·维曼在科罗拉多大学首次制备出玻色-爱因斯坦凝聚态，这是一种全新的物质状态，在接近绝对零度时，原子会进入同一量子态。这一发现证实了爱因斯坦和玻色1924年提出的理论预言。"
+  },
+  {
+    "id": "world-franklin-electricity",
+    "title": "富兰克林发现闪电是电",
+    "startYear": 1752,
+    "endYear": 1752,
+    "type": "event",
+    "category": "technology",
+    "rail": "global_long",
+    "summary": "1752年6月，本杰明·富兰克林进行了著名的风筝实验，证实了闪电是电的一种现象。富兰克林还发现了电荷守恒定律，发明了避雷针，为电学的发展奠定了基础。"
+  },
+  {
+    "id": "world-los-angeles-olympics",
+    "title": "洛杉矶奥运会",
+    "startYear": 1984,
+    "endYear": 1984,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "1984年7月28日至8月12日，第23届夏季奥运会在美国洛杉矶举行。这是中国1979年重返奥林匹克大家庭后参加的第一届奥运会。中国射击运动员许海峰以566环成绩获得男子手枪慢射冠军，实现中国奥运金牌'零的突破'。中国代表团共获得15金8银9铜，共32枚奖牌，排名第4位。"
+  },
+  {
+    "id": "world-barcelona-olympics",
+    "title": "巴塞罗那奥运会",
+    "startYear": 1992,
+    "endYear": 1992,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "1992年7月25日至8月9日，第25届夏季奥运会在西班牙巴塞罗那举行。中国代表团派出251名运动员参赛，共获得16金22银16铜，共54枚奖牌，排名第4位。庄泳获得游泳女子100米自由泳金牌，伏明霞获得跳水女子10米跳台金牌。"
+  },
+  {
+    "id": "world-atlanta-olympics",
+    "title": "亚特兰大奥运会",
+    "startYear": 1996,
+    "endYear": 1996,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "1996年7月19日至8月4日，第26届夏季奥运会在美国亚特兰大举行。中国代表团派出309名运动员参赛，共获得16金22银12铜，共50枚奖牌，排名第4位。伏明霞获得跳水女子10米跳台和3米跳板两枚金牌。"
+  },
+  {
+    "id": "world-sydney-olympics",
+    "title": "悉尼奥运会",
+    "startYear": 2000,
+    "endYear": 2000,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "2000年9月15日至10月1日，第27届夏季奥运会在澳大利亚悉尼举行。中国代表团派出311名运动员参赛，共获得28金16银14铜，共58枚奖牌，排名第3位。跳水、举重、乒乓球是中国优势项目。"
+  },
+  {
+    "id": "world-athens-olympics",
+    "title": "雅典奥运会",
+    "startYear": 2004,
+    "endYear": 2004,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "2004年8月13日至29日，第28届夏季奥运会在希腊雅典举行。中国体育代表团以32金17银14铜的成绩仅次于美国，居于奖牌榜第二位。杜丽获得射击女子10米气步枪金牌，王义夫获得男子10米气手枪金牌。"
+  },
+  {
+    "id": "world-london-olympics",
+    "title": "伦敦奥运会",
+    "startYear": 2012,
+    "endYear": 2012,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "2012年7月27日至8月12日，第30届夏季奥运会在英国伦敦举行。中国代表团共获得39金31银22铜，共92枚奖牌，排名第2位。易思玲获得射击女子10米气步枪金牌。"
+  },
+  {
+    "id": "world-rio-olympics",
+    "title": "里约奥运会",
+    "startYear": 2016,
+    "endYear": 2016,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "2016年8月5日至21日，第31届夏季奥运会在巴西里约热内卢举行。中国代表团共获得26金18银26铜，共70枚奖牌，排名第3位。张梦雪获得女子10米气手枪金牌，为中国代表团赢得首金。"
+  },
+  {
+    "id": "world-paris-olympics",
+    "title": "巴黎奥运会",
+    "startYear": 2024,
+    "endYear": 2024,
+    "type": "event",
+    "category": "culture",
+    "rail": "main",
+    "summary": "2024年7月26日至8月11日，第33届夏季奥运会在法国巴黎举行。中国代表团共获得40金26银27铜，共93枚奖牌，排名第2位。"
+  }
+]
