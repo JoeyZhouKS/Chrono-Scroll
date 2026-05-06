@@ -568,6 +568,26 @@ export function ChronoScroll({ isAdmin = false }: { isAdmin?: boolean }) {
   const backgroundLaneWidth = BACKGROUND_LANE_WIDTH;
   const eraLaneWidth = ERA_LANE_WIDTH;
   const hoveredEventImage = getEventImage(hoveredEvent);
+
+  const TOOLTIP_WIDTH = 320;
+  const TOOLTIP_OFFSET = 16;
+
+  const tooltipStyle = useMemo(() => {
+    if (!hoveredEvent) return null;
+    const left = tooltipPosition.x + TOOLTIP_OFFSET;
+    const top = tooltipPosition.y + TOOLTIP_OFFSET;
+    const adjustedLeft = left + TOOLTIP_WIDTH > window.innerWidth
+      ? Math.max(0, window.innerWidth - TOOLTIP_WIDTH - 16)
+      : left;
+    const adjustedTop = top + 300 > window.innerHeight
+      ? Math.max(0, window.innerHeight - 300 - 16)
+      : top;
+    return {
+      left: adjustedLeft,
+      top: adjustedTop
+    };
+  }, [hoveredEvent, tooltipPosition]);
+
   const handleEventMouseMove = (event: MouseEvent<HTMLButtonElement>, timelineEvent: TimelineEvent) => {
     setHoveredEvent(timelineEvent);
     setTooltipPosition({ x: event.clientX, y: event.clientY });
@@ -866,13 +886,10 @@ export function ChronoScroll({ isAdmin = false }: { isAdmin?: boolean }) {
         </div>
       </section>
 
-      {hoveredEvent ? (
+      {hoveredEvent && tooltipStyle ? (
         <div
           className="pointer-events-none fixed z-[80] w-[320px] max-w-[calc(100vw-2rem)] rounded-lg border border-[#c19f6b] bg-[#fff9ed] p-3 text-sm text-[#3b2e1c] shadow-xl"
-          style={{
-            left: tooltipPosition.x + 16,
-            top: tooltipPosition.y + 16
-          }}
+          style={tooltipStyle}
         >
           {hoveredEventImage ? (
             <Image
