@@ -85,16 +85,16 @@ const CATEGORY_LABELS: Record<EventCategory, string> = {
 };
 
 const EVENT_CATEGORY_STYLES: Record<EventCategory, string> = {
-  era: "border-[#b99661] bg-[#f0dec0] text-[#604321]",
-  dynasty: "border-[#b99661] bg-[#f0dec0] text-[#604321]",
-  war: "border-[#b75f4b] bg-[#f5d5cb] text-[#6f3328]",
-  politics: "border-[#be8d4a] bg-[#f0dfbd] text-[#674515]",
-  culture: "border-[#7b75ad] bg-[#dedcf1] text-[#3f3a6d]",
-  technology: "border-[#5f8d78] bg-[#d9eadf] text-[#2f5b4b]",
-  revolution: "border-[#be6d74] bg-[#f0d0d7] text-[#703540]",
-  diplomacy: "border-[#486a8b] bg-[#d8e5ef] text-[#2a4966]",
-  economy: "border-[#8aa060] bg-[#e6edcb] text-[#4c5e27]",
-  society: "border-[#8d7c6b] bg-[#eadfd2] text-[#524337]"
+  era: "border-[#c49a3c] bg-[#fce88d] text-[#6b4400]",
+  dynasty: "border-[#c49a3c] bg-[#fce88d] text-[#6b4400]",
+  war: "border-[#c9302c] bg-[#ffc2c2] text-[#6e0000]",
+  politics: "border-[#d48806] bg-[#ffe082] text-[#6b3e00]",
+  culture: "border-[#722ed1] bg-[#d3adf7] text-[#3c1191]",
+  technology: "border-[#08979c] bg-[#95e1d3] text-[#005249]",
+  revolution: "border-[#c41d79] bg-[#f78db8] text-[#6e0038]",
+  diplomacy: "border-[#1677ff] bg-[#91caff] text-[#003a8c]",
+  economy: "border-[#7c3aed] bg-[#d4b8ff] text-[#3b0764]",
+  society: "border-[#b45309] bg-[#fed7aa] text-[#592800]"
 };
 
 function isMajorTick(year: number, tickInterval: number, startYear: number, endYear: number) {
