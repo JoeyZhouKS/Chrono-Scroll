@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs/promises";
 import path from "path";
+import { isAdminAuthenticated, unauthorizedResponse } from "@/lib/adminAuth";
 
 const PENDING_FILE = path.join(process.cwd(), "data", "pending_events.json");
 const EVENTS_FILE = path.join(process.cwd(), "data", "timeline-events.json");
@@ -46,7 +47,11 @@ async function writeRejectionLog(log: Array<Record<string, unknown>>): Promise<v
 }
 
 // GET /api/pending-events - List all pending events and rejection log
-export async function GET() {
+export async function GET(request: NextRequest) {
+  if (!isAdminAuthenticated(request)) {
+    return unauthorizedResponse();
+  }
+
   try {
     const pending = await readPendingEvents();
     const rejections = await readRejectionLog();
@@ -65,6 +70,10 @@ export async function POST(request: NextRequest) {
 
     // Handle approve action
     if (action === "approve" && id) {
+      if (!isAdminAuthenticated(request)) {
+        return unauthorizedResponse();
+      }
+
       const pending = await readPendingEvents();
       const index = pending.findIndex((item) => item.id === id);
 
@@ -103,6 +112,10 @@ export async function POST(request: NextRequest) {
 
     // Handle reject action
     if (action === "reject" && id) {
+      if (!isAdminAuthenticated(request)) {
+        return unauthorizedResponse();
+      }
+
       const pending = await readPendingEvents();
       const index = pending.findIndex((item) => item.id === id);
 
@@ -177,6 +190,10 @@ export async function POST(request: NextRequest) {
 }
 
 export async function DELETE(request: NextRequest) {
+  if (!isAdminAuthenticated(request)) {
+    return unauthorizedResponse();
+  }
+
   const { searchParams } = new URL(request.url);
   const action = searchParams.get("action");
 

@@ -120,6 +120,26 @@ npm run lint
 
 开发服务器默认运行在 [http://localhost:3000](http://localhost:3000)
 
+## 接口权限说明
+
+为避免误用，项目中的事件接口按“公开提交 + 管理审核”划分为两类：
+
+- 公开接口（无需管理员登录）
+  - `POST /api/pending-events`（不带 `action`）：普通用户提交待审核事件
+- 管理员接口（需要已登录管理员 Cookie）
+  - `GET /api/pending-events`：读取待审核事件和拒绝记录
+  - `POST /api/pending-events`（`action=approve` 或 `action=reject`）：审批/拒绝
+  - `DELETE /api/pending-events?action=clear-rejections`：清空拒绝记录
+  - `POST/PUT/DELETE /api/events`：正式事件数据管理
+
+更多细节见 [docs/api-access-control.md](docs/api-access-control.md)。
+
+## 构建与工作区说明
+
+项目已在 `next.config.mjs` 中显式设置 `outputFileTracingRoot`，用于避免 Next.js 在多 lockfile 场景下错误推断工作区根目录。
+
+如果你仍然看到类似 workspace root 的警告，请检查仓库上级目录是否存在额外的 `package-lock.json` / `pnpm-lock.yaml` / `yarn.lock`。
+
 ## 数据格式
 
 ### TimelineEvent 字段
